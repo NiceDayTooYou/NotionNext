@@ -5,8 +5,8 @@ const CONFIG = {
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   NOTICE_BAR: [
-    { title: 'Welcome欢迎你的到来', url: 'https://space.bilibili.com/1375298909?spm_id_from=333.1007.0.0' },
-    { title: '希望你在这里度过愉快而充实的时光', url: 'https://space.bilibili.com/1375298909?spm_id_from=333.1007.0.0' }
+    { title: 'Welcome欢迎你的到来🎯', url: 'https://space.bilibili.com/1375298909?spm_id_from=333.1007.0.0' },
+    { title: '希望你的每一天都开心快乐❤️', url: 'https://space.bilibili.com/1375298909?spm_id_from=333.1007.0.0' }
   ],
 
   // 英雄区(首页顶部大卡)
@@ -24,15 +24,15 @@ const CONFIG = {
 
   // 英雄区右侧推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
   HERO_RECOMMEND_POST_TAG: '推荐',
-  HERO_RECOMMEND_POST_SORT_BY_UPDATE_TIME: false, // 推荐文章排序，为`true`时将强制按最后修改时间倒序
+  HERO_RECOMMEND_POST_SORT_BY_UPDATE_TIME: true, // 推荐文章排序，为`true`时将强制按最后修改时间倒序
 
   // 右侧个人资料卡牌欢迎语，点击可自动切换
   INFOCARD_GREETINGS: [
     '你好！我是Li Yong',
-    '🔍 昨天是段历史',
-    '🤝 明天是个谜团',
-    '🏃 而今天是天赐的礼物',
-    '🏠 要像珍惜礼物那样珍惜今天',
+    '昨天是段历史❤️',
+    '明天是个谜团❤️',
+    '而今天是天赐的礼物❤️',
+    '要像珍惜礼物那样珍惜今天❤️',
   ],
   INFO_CARD_URL: 'https://github.com/521xueweihan/HelloGitHub', // 个人资料底部按钮链接
 
