@@ -97,16 +97,16 @@ const CONFIG = {
   ],
 
   SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
-  SOCIAL_CARD_TITLE_1: '英语学习频道',
-  SOCIAL_CARD_TITLE_2: '加入探索发现',
+  SOCIAL_CARD_TITLE_1: 'YouTube频道',
+  SOCIAL_CARD_TITLE_2: 'discovery新的一天',
   SOCIAL_CARD_TITLE_3: '点击加入频道',
-  SOCIAL_CARD_URL: 'https://playphrase.me/',
+  SOCIAL_CARD_URL: 'https://youtube.com/@serendipityniceday',
 
   // *****  以下配置无效，只是预留开发 ****
   // 菜单配置
   MENU_INDEX: true, // 显示首页
-  MENU_CATEGORY: true, // 显示分类
-  MENU_TAG: true, // 显示标签
+  MENU_CATEGORY: false, // 显示分类
+  MENU_TAG: false, // 显示标签
   MENU_ARCHIVE: true, // 显示归档
   MENU_SEARCH: true, // 显示搜索
 
