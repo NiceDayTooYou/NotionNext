@@ -5,8 +5,8 @@ const CONFIG = {
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   NOTICE_BAR: [
-    { title: 'Welcome欢迎你的到来🎯', url: 'https://space.bilibili.com/1375298909?spm_id_from=333.1007.0.0' },
-    { title: '希望你的每一天都开心快乐❤️', url: 'https://space.bilibili.com/1375298909?spm_id_from=333.1007.0.0' }
+    { title: 'Welcome欢迎你的到来🎯', url: 'https://space.bilibili.com/1375298909/' },
+    { title: '希望你的每一天都开心快乐❤️', url: 'https://space.bilibili.com/1375298909/' }
   ],
 
   // 英雄区(首页顶部大卡)
@@ -15,12 +15,12 @@ const CONFIG = {
   HERO_TITLE_3: 'Serendipity',
   HERO_TITLE_4: 'LiYong',
   HERO_TITLE_5: '热爱生活，知足常乐',
-  HERO_TITLE_LINK: 'https://space.bilibili.com/1375298909?spm_id_from=333.1007.0.0',
+  HERO_TITLE_LINK: 'https://space.bilibili.com/1375298909/',
 
   // 英雄区显示三个置顶分类
-  HERO_CATEGORY_1: { title: 'Serendipity', url: 'https://space.bilibili.com/1375298909?spm_id_from=333.1007.0.0' },
-  HERO_CATEGORY_2: { title: 'Harmony', url: 'https://space.bilibili.com/1375298909?spm_id_from=333.1007.0.0' },
-  HERO_CATEGORY_3: { title: 'Smile', url: 'https://space.bilibili.com/1375298909?spm_id_from=333.1007.0.0' },
+  HERO_CATEGORY_1: { title: 'Serendipity', url: 'https://space.bilibili.com/1375298909/' },
+  HERO_CATEGORY_2: { title: 'Harmony', url: 'https://space.bilibili.com/1375298909/' },
+  HERO_CATEGORY_3: { title: 'Smile', url: 'https://space.bilibili.com/1375298909/' },
 
   // 英雄区右侧推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
   HERO_RECOMMEND_POST_TAG: '',
