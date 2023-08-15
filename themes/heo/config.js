@@ -10,7 +10,7 @@ const CONFIG = {
   ],
 
   // 英雄区(首页顶部大卡)
-  HERO_TITLE_1: '发现一切可能',
+  HERO_TITLE_1: '发现一切未知',
   HERO_TITLE_2: '探索无垠世界',
   HERO_TITLE_3: 'Serendipity',
   HERO_TITLE_4: 'LiYong',
