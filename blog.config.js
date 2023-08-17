@@ -312,6 +312,14 @@ const BLOG = {
 
   // <---- 评论插件
 
+  // main.js
+// 引入包含 diytitle 对象的 js 文件
+const diytitle = require("./diytitle.js");
+
+// 在这里可以使用 diytitle 对象
+console.log(diytitle.leaveTitle);
+
+
   // ----> 站点统计
   ANALYTICS_VERCEL: process.env.NEXT_PUBLIC_ANALYTICS_VERCEL || true, // vercel自带的统计 https://vercel.com/docs/concepts/analytics/quickstart https://github.com/tangly1024/NotionNext/issues/897
   ANALYTICS_BUSUANZI_ENABLE: process.env.NEXT_PUBLIC_ANALYTICS_BUSUANZI_ENABLE || true, // 展示网站阅读量、访问数 see http://busuanzi.ibruce.info/
