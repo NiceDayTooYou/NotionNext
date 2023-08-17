@@ -8,7 +8,7 @@ document.addEventListener('visibilitychange', function () {
             document.title = OriginTitile;
         }, 4000);
     } else {
-        document.title = '不要走！再看看嘛';
+        document.title = '不要走！再看看嘛(ﾟДﾟ)';
         clearTimeout(jiao);
     }
 });
