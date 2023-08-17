@@ -101,13 +101,6 @@
 
   BEI_AN: process.env.NEXT_PUBLIC_BEI_AN || '', // 备案号 闽ICP备XXXXXXX
 
-  // 标签卖萌配置
-  diytitle: {
-    enable: true,
-    leaveTitle: "w(ﾟДﾟ)w 不要走！再看看嘛！",
-    backTitle: "♪(^∇^*)欢迎肥来！"
-  },
-
   // START********代码相关********
   // PrismJs 代码相关
   PRISM_JS_PATH: 'https://npm.elemecdn.com/prismjs@1.29.0/components/',
