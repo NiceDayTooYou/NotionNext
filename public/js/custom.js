@@ -1,1 +1,13 @@
-// 这里编写自定义js脚本；将被静态引入到页面中
+var OriginTitile=document.title,jiao;
+document.addEventListener('visibilitychange', function () {
+    if (document.visibilityState == 'hidden') {
+        document.title = 'w(ﾟДﾟ)w 不要走！再看看嘛';
+        clearTimeout(jiao);
+    } 
+    else {
+        document.title = '♪(^∇^*)欢迎肥来！ '+ OriginTitile;
+        jiao=setTimeout(function(){
+            document.title=OriginTitile;
+        },4000);
+    }
+});
