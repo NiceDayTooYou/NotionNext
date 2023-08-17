@@ -176,12 +176,6 @@ const BLOG = {
   // 星空雨特效 黑夜模式才会生效
   STARRY_SKY: process.env.NEXT_PUBLIC_STARRY_SKY || true, // 开关
 
-  # 标签卖萌
-diytitle:
-  enable: true
-  leaveTitle: w(ﾟДﾟ)w 不要走！再看看嘛！
-  backTitle: ♪(^∇^*)欢迎肥来！
-
   //   ********挂件组件相关********
   // Chatbase 是否显示chatbase机器人 https://www.chatbase.co/
   CHATBASE_ID: process.env.NEXT_PUBLIC_CHATBASE_ID || null,
