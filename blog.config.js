@@ -1,4 +1,9 @@
   // 注: process.env.XX是Vercel的环境变量，配置方式见：https://docs.tangly1024.com/article/how-to-config-notion-next#c4768010ae7d44609b744e79e2f9959a
+const diytitle = {
+  enable: true,
+  leaveTitle: "w(ﾟДﾟ)w 不要走！再看看嘛！",
+  backTitle: "♪(^∇^*)欢迎肥来！"
+};
 const BLOG = {
   // Important page_id！！！Duplicate Template from  https://www.notion.so/tanghh/02ab3b8678004aa69e9e415905ef32a5
   NOTION_PAGE_ID:
