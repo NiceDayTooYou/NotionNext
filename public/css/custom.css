@@ -1,18 +1,4 @@
 /* 侧边栏个人信息卡片动态渐变色 */
-div.border{
-  background: linear-gradient(
-    -45deg,
-    #e8d8b9,
-    #eccec5,
-    #a3e9eb,
-    #bdbdf0,
-    #eec1ea
-  );
-  background-size: 400% 400%;
-  -webkit-animation: Gradient 10s ease infinite;
-  -moz-animation: Gradient 10s ease infinite;
-  animation: Gradient 10s ease infinite !important;
-}
 @-webkit-keyframes Gradient {
   0% {
     background-position: 0% 50%;
