@@ -167,6 +167,8 @@
 
   // 樱花飘落特效
   SAKURA: process.env.NEXT_PUBLIC_SAKURA || false, // 开关
+  // 银杏叶特效
+  LEAVES: process.env.NEXT_PUBLIC_SAKURA || true, //开关
   // 漂浮线段特效
   NEST: process.env.NEXT_PUBLIC_NEST || true, // 开关
   // 动态彩带特效
