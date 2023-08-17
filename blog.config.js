@@ -1,10 +1,5 @@
   // 注: process.env.XX是Vercel的环境变量，配置方式见：https://docs.tangly1024.com/article/how-to-config-notion-next#c4768010ae7d44609b744e79e2f9959a
-const diytitle = {
-  enable: true,
-  leaveTitle: "w(ﾟДﾟ)w 不要走！再看看嘛！",
-  backTitle: "♪(^∇^*)欢迎肥来！"
-};
-const BLOG = {
+  const BLOG = {
   // Important page_id！！！Duplicate Template from  https://www.notion.so/tanghh/02ab3b8678004aa69e9e415905ef32a5
   NOTION_PAGE_ID:
         process.env.NOTION_PAGE_ID || '02ab3b8678004aa69e9e415905ef32a5',
@@ -16,6 +11,12 @@ const BLOG = {
   SINCE: 2021, // e.g if leave this empty, current year will be used.
   APPEARANCE: process.env.NEXT_PUBLIC_APPEARANCE || 'light', // ['light', 'dark', 'auto'], // light 日间模式 ， dark夜间模式， auto根据时间和主题自动夜间模式
   APPEARANCE_DARK_TIME: process.env.NEXT_PUBLIC_APPEARANCE_DARK_TIME || [18, 6], // 夜间模式起至时间，false时关闭根据时间自动切换夜间模式
+
+    const diytitle = {
+  enable: true,
+  leaveTitle: "w(ﾟДﾟ)w 不要走！再看看嘛！",
+  backTitle: "♪(^∇^*)欢迎肥来！"
+};
 
   // 3.14.1版本后，欢迎语在此配置，英文逗号隔开 ,  即可支持多个欢迎语打字效果。
   GREETING_WORDS: process.env.NEXT_PUBLIC_GREETING_WORDS || 'Hi，昨天是段历史😶, Hi，明天是个谜团😶‍🌫️,Hi，今天是天赐的礼物❤️',
