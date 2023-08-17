@@ -12,12 +12,6 @@
   APPEARANCE: process.env.NEXT_PUBLIC_APPEARANCE || 'light', // ['light', 'dark', 'auto'], // light 日间模式 ， dark夜间模式， auto根据时间和主题自动夜间模式
   APPEARANCE_DARK_TIME: process.env.NEXT_PUBLIC_APPEARANCE_DARK_TIME || [18, 6], // 夜间模式起至时间，false时关闭根据时间自动切换夜间模式
 
-    const diytitle = {
-  enable: true,
-  leaveTitle: "w(ﾟДﾟ)w 不要走！再看看嘛！",
-  backTitle: "♪(^∇^*)欢迎肥来！"
-};
-
   // 3.14.1版本后，欢迎语在此配置，英文逗号隔开 ,  即可支持多个欢迎语打字效果。
   GREETING_WORDS: process.env.NEXT_PUBLIC_GREETING_WORDS || 'Hi，昨天是段历史😶, Hi，明天是个谜团😶‍🌫️,Hi，今天是天赐的礼物❤️',
 
@@ -106,6 +100,13 @@
   FACEBOOK_APP_ID: process.env.NEXT_PUBLIC_FACEBOOK_APP_ID || '316268384192041', // Facebook App ID 來啟用 messenger 聊天功能 获取: https://developers.facebook.com/
 
   BEI_AN: process.env.NEXT_PUBLIC_BEI_AN || '', // 备案号 闽ICP备XXXXXXX
+
+  // 标签卖萌配置
+  diytitle: {
+    enable: true,
+    leaveTitle: "w(ﾟДﾟ)w 不要走！再看看嘛！",
+    backTitle: "♪(^∇^*)欢迎肥来！"
+  },
 
   // START********代码相关********
   // PrismJs 代码相关
