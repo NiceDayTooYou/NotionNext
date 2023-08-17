@@ -13,7 +13,7 @@ const CONFIG = {
   HERO_TITLE_1: '发现一切未知',
   HERO_TITLE_2: '探索无垠世界',
   HERO_TITLE_3: 'Serendipity',
-  HERO_TITLE_4: 'LiYong',
+  HERO_TITLE_4: 'Serendipity',
   HERO_TITLE_5: '热爱生活，知足常乐',
   HERO_TITLE_LINK: 'https://space.bilibili.com/1375298909/',
 
