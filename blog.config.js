@@ -313,11 +313,9 @@ const BLOG = {
   // <---- 评论插件
 
   // main.js
-// 引入包含 diytitle 对象的 js 文件
+  // 引入包含 diytitle 对象的 js 文件
 const diytitle = require("./diytitle.js");
 
-// 在这里可以使用 diytitle 对象
-console.log(diytitle.leaveTitle);
 
 
   // ----> 站点统计
