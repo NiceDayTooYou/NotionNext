@@ -7,10 +7,10 @@ const CONFIG = {
   NOTICE_BAR: [
     { title: 'Welcome欢迎你的到来🎯', url: 'https://space.bilibili.com/1375298909/' },
     { title: '希望你的每一天都开心快乐❤️', url: 'https://space.bilibili.com/1375298909/' },
-    { title: '昨天是段历史❤️', url: 'https://space.bilibili.com/1375298909/' },
-    { title: '明天是个谜团❤️', url: 'https://space.bilibili.com/1375298909/' },
-    { title: '而今天是天赐的礼物❤️', url: 'https://space.bilibili.com/1375298909/' },
-    { title: '要像珍惜礼物那样珍惜今天❤️', url: 'https://space.bilibili.com/1375298909/' }
+    { title: '昨天是段历史 Yesterday is a piece of history❤️', url: 'https://space.bilibili.com/1375298909/' },
+    { title: '明天是个谜团 Tomorrow is a mystery❤️', url: 'https://space.bilibili.com/1375298909/' },
+    { title: '而今天是天赐的礼物 Today is a gift from above❤️', url: 'https://space.bilibili.com/1375298909/' },
+    { title: '要像珍惜礼物那样珍惜今天 Cherish today like a gift❤️', url: 'https://space.bilibili.com/1375298909/' }
   ],
 
   // 英雄区(首页顶部大卡)
