@@ -15,7 +15,7 @@ const CONFIG = {
 
   // 英雄区(首页顶部大卡)
   HERO_TITLE_1: '“Hello,World”',
-  HERO_TITLE_2: '你好',
+  HERO_TITLE_2: '  你好吗',
   HERO_TITLE_3: 'Serendipity',
   HERO_TITLE_4: 'Serendipity',
   HERO_TITLE_5: '热爱生活，知足常乐',
