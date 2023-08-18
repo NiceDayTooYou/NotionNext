@@ -6,12 +6,16 @@ const CONFIG = {
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   NOTICE_BAR: [
     { title: 'Welcome欢迎你的到来🎯', url: 'https://space.bilibili.com/1375298909/' },
-    { title: '希望你的每一天都开心快乐❤️', url: 'https://space.bilibili.com/1375298909/' }
+    { title: '希望你的每一天都开心快乐❤️', url: 'https://space.bilibili.com/1375298909/' },
+    { title: '昨天是段历史❤️', url: 'https://space.bilibili.com/1375298909/' },
+    { title: '明天是个谜团❤️', url: 'https://space.bilibili.com/1375298909/' },
+    { title: '而今天是天赐的礼物❤️', url: 'https://space.bilibili.com/1375298909/' },
+    { title: '要像珍惜礼物那样珍惜今天❤️', url: 'https://space.bilibili.com/1375298909/' }
   ],
 
   // 英雄区(首页顶部大卡)
-  HERO_TITLE_1: '发现一切未知',
-  HERO_TITLE_2: '探索无垠世界',
+  HERO_TITLE_1: '“Hello,World”',
+  HERO_TITLE_2: '你好',
   HERO_TITLE_3: 'Serendipity',
   HERO_TITLE_4: 'Serendipity',
   HERO_TITLE_5: '热爱生活，知足常乐',
