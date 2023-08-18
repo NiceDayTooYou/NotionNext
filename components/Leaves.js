@@ -142,7 +142,7 @@ function stopp() {
 		var child = document.getElementById("canvas_sakura");
 		child.parentNode.removeChild(child);
 		window.cancelAnimationFrame(stop);
-		staticx = false
+		staticx = true
 	} else {
 		startSakura()
 	}
