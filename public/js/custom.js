@@ -54,4 +54,4 @@ const fnTextPopup = function (arr, options) {
 }
 
 // 执行，传入文字内容
-fnTextPopup(['C++', 'Java', 'Python', 'PHP', 'JavaScript', 'Go', 'Objective-C', 'Swift', 'Markdown', 'TypeScript', 'Ruby', 'Elixir'])
+fnTextPopup(['❤C++❤', '❤Java❤', '❤Python❤', '❤PHP❤', '❤JavaScript❤', '❤Go❤', '❤Objective-C❤', '❤Swift❤', '❤Markdown❤', '❤TypeScript❤', '❤Ruby❤', '❤Elixir❤'])
