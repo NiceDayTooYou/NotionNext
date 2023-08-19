@@ -27,8 +27,8 @@ function createFireworks(config) {
       max: 100
     },
     circleRadius: {
-      min: 10,
-      max: 20
+      min: 50,
+      max: 100
     },
     diffuseRadius: {
       min: 50,
