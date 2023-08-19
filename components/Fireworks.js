@@ -31,8 +31,8 @@ function createFireworks(config) {
       max: 100
     },
     diffuseRadius: {
-      min: 50,
-      max: 100
+      min: 30,
+      max: 40
     },
     animeDuration: {
       min: 900,
