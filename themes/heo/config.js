@@ -101,10 +101,10 @@ const CONFIG = {
   ],
 
   SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
-  SOCIAL_CARD_TITLE_1: 'YouTube频道',
-  SOCIAL_CARD_TITLE_2: 'discovery新的一天',
-  SOCIAL_CARD_TITLE_3: '点击加入频道',
-  SOCIAL_CARD_URL: 'https://youtube.com/@serendipityniceday',
+  SOCIAL_CARD_TITLE_1: '简介',
+  SOCIAL_CARD_TITLE_2: 'Thanks for reading',
+  SOCIAL_CARD_TITLE_3: 'Click to view the profile and find out more',
+  SOCIAL_CARD_URL: 'https://flowcv.com/resume/ww2mhitt2c',
 
   // *****  以下配置无效，只是预留开发 ****
   // 菜单配置
