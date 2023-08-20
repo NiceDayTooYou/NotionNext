@@ -2,6 +2,7 @@ import '@/styles/animate.css' // @see https://animate.style/
 import '@/styles/globals.css'
 import '@/styles/nprogress.css'
 import '@/styles/utility-patterns.css'
+import '@/styles/background.css';
 
 // core styles shared by all of react-notion-x (required)
 import 'react-notion-x/src/styles.css'
@@ -48,11 +49,19 @@ const MyApp = ({ Component, pageProps }) => {
   }
 
   return (
-        <GlobalContextProvider {...pageProps}>
-            <Component {...pageProps} />
-            <ExternalPlugins {...pageProps} />
-        </GlobalContextProvider>
+    <GlobalContextProvider {...pageProps}>
+      <div className="background-container">
+        {/* 添加背景图片 */}
+        <img
+          src="https://s1.ax1x.com/2023/08/20/pP8GeK0.jpg"
+          alt="background image"
+          className="background-image"
+        />
+      </div>
+      <Component {...pageProps} />
+      <ExternalPlugins {...pageProps} />
+    </GlobalContextProvider>
   )
 }
 
-export default MyApp
+export default MyApp;
