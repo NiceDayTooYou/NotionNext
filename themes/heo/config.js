@@ -103,7 +103,7 @@ const CONFIG = {
   SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
   SOCIAL_CARD_TITLE_1: 'About me',
   SOCIAL_CARD_TITLE_2: 'Thanks for reading',
-  SOCIAL_CARD_TITLE_3: '🔴点击🟡发现更多🟢',
+  SOCIAL_CARD_TITLE_3: '🔴🟡🟢点击发现更多',
   SOCIAL_CARD_URL: 'https://flowcv.com/resume/ww2mhitt2c',
 
   // *****  以下配置无效，只是预留开发 ****
