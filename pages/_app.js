@@ -50,15 +50,15 @@ const MyApp = ({ Component, pageProps }) => {
 
 const [imageUrl, setImageUrl] = useState('https://s1.ax1x.com/2023/08/20/pP8GeK0.jpg'); // 初始背景图片URL
 
-return (
-    <GlobalContextProvider {...pageProps}>
-      <div className="background-container">
-        <img src={imageUrl} alt="background image" className="background-image" />
-        <Component {...pageProps} />
-      </div>
-      <ExternalPlugins {...pageProps} />
-    </GlobalContextProvider>
-  );
+  return (
+        <GlobalContextProvider {...pageProps}>
+           <div className="background-container">
+             <img src={imageUrl} alt="background image" className="background-image" />
+           </div>
+             <Component {...pageProps} />
+           <ExternalPlugins {...pageProps} />
+        </GlobalContextProvider>
+  )
 }
 
-export default MyApp; 
+export default MyApp
