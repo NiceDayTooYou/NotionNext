@@ -1,18 +1,20 @@
-import { useState, useEffect } from 'react'; // 添加 useState 和 useEffect 导入
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import dynamic from 'next/dynamic';
-import BLOG from '@/blog.config';
-import { isBrowser, loadExternalResource } from '@/lib/utils';
-import { GlobalContextProvider } from '@/lib/global';
-import 'react-notion-x/src/styles.css';
-import '@/styles/notion.css';
-import '@/styles/animate.css';
-import '@/styles/globals.css';
-import '@/styles/nprogress.css';
-import '@/styles/utility-patterns.css';
-import '../styles/globals.css';
-import '../styles/background.css';
+import '@/styles/animate.css' // @see https://animate.style/
+import '@/styles/globals.css'
+import '@/styles/nprogress.css'
+import '@/styles/utility-patterns.css'
+import '@/styles/background.css'
+
+// core styles shared by all of react-notion-x (required)
+import 'react-notion-x/src/styles.css'
+import '@/styles/notion.css' //  重写部分样式
+
+import { GlobalContextProvider } from '@/lib/global'
+
+import AOS from 'aos'
+import 'aos/dist/aos.css' // You can also use <link> for styles
+import dynamic from 'next/dynamic'
+import { isBrowser, loadExternalResource } from '@/lib/utils'
+import BLOG from '@/blog.config'
 
 // 各种扩展插件 动画等
 const ExternalPlugins = dynamic(() => import('@/components/ExternalPlugins'));
