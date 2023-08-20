@@ -27,6 +27,11 @@ const MyApp = ({ Component, pageProps }) => {
     loadExternalResource('/css/custom.css', 'css')
     loadExternalResource('/js/custom.js', 'js')
 
+    // 自动添加图片阴影
+    if (BLOG.IMG_SHADOW) {
+      loadExternalResource('/css/img-shadow.css', 'css')
+    }
+
     // 导入外部自定义脚本
     if (BLOG.CUSTOM_EXTERNAL_JS && BLOG.CUSTOM_EXTERNAL_JS.length > 0) {
       for (const url of BLOG.CUSTOM_EXTERNAL_JS) {
