@@ -22,9 +22,9 @@ const CONFIG = {
   HERO_TITLE_LINK: 'https://space.bilibili.com/1375298909/',
 
   // 英雄区显示三个置顶分类
-  HERO_CATEGORY_1: { title: 'Serendipity', url: 'https://space.bilibili.com/1375298909/' },
-  HERO_CATEGORY_2: { title: 'Harmony', url: 'https://space.bilibili.com/1375298909/' },
-  HERO_CATEGORY_3: { title: 'Smile', url: 'https://space.bilibili.com/1375298909/' },
+  HERO_CATEGORY_1: { title: 'Serendipity', url: 'https://github.com/NiceDayTooYou' },
+  HERO_CATEGORY_2: { title: 'Harmony', url: 'https://github.com/NiceDayTooYou' },
+  HERO_CATEGORY_3: { title: 'Smile', url: 'https://github.com/NiceDayTooYou' },
 
   // 英雄区右侧推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
   HERO_RECOMMEND_POST_TAG: '',
@@ -38,7 +38,7 @@ const CONFIG = {
     '而今天是天赐的礼物❤️',
     '要像珍惜礼物那样珍惜今天❤️',
   ],
-  INFO_CARD_URL: 'https://github.com/521xueweihan/HelloGitHub', // 个人资料底部按钮链接
+  INFO_CARD_URL: 'https://github.com/NiceDayTooYou', // 个人资料底部按钮链接
 
   // 用户技能图标
   GROUP_ICONS: [
@@ -103,7 +103,7 @@ const CONFIG = {
   SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
   SOCIAL_CARD_TITLE_1: 'About me',
   SOCIAL_CARD_TITLE_2: 'Thanks for reading',
-  SOCIAL_CARD_TITLE_3: 'Click to view the profile and find out more',
+  SOCIAL_CARD_TITLE_3: '🔴点击🟡发现更多🟢',
   SOCIAL_CARD_URL: 'https://flowcv.com/resume/ww2mhitt2c',
 
   // *****  以下配置无效，只是预留开发 ****
