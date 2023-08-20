@@ -15,9 +15,9 @@ import dynamic from 'next/dynamic'
 import { isBrowser, loadExternalResource } from '@/lib/utils'
 import BLOG from '@/blog.config'
 import React, { useState } from 'react';
-import './App.css';
+import './css/custom.css';
 
-function App() {
+function MyApp() {
   const [imageUrl, setImageUrl] = useState('path/to/https://s1.ax1x.com/2023/08/20/pP8GeK0.jpg');
 
   return (
