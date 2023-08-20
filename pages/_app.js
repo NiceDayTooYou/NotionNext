@@ -2,6 +2,7 @@ import '@/styles/animate.css' // @see https://animate.style/
 import '@/styles/globals.css'
 import '@/styles/nprogress.css'
 import '@/styles/utility-patterns.css'
+import '@/styles/background.css'
 
 // core styles shared by all of react-notion-x (required)
 import 'react-notion-x/src/styles.css'
@@ -15,9 +16,8 @@ import dynamic from 'next/dynamic'
 import { isBrowser, loadExternalResource } from '@/lib/utils'
 import BLOG from '@/blog.config'
 
-
 // 各种扩展插件 动画等
-const ExternalPlugins = dynamic(() => import('@/components/ExternalPlugins'))
+const ExternalPlugins = dynamic(() => import('@/components/ExternalPlugins'));
 
 const MyApp = ({ Component, pageProps }) => {
   // 自定义样式css和js引入
@@ -48,10 +48,15 @@ const MyApp = ({ Component, pageProps }) => {
     }
   }
 
+const [imageUrl, setImageUrl] = useState('https://s1.ax1x.com/2023/08/20/pP8GeK0.jpg'); // 初始背景图片URL
+
   return (
         <GlobalContextProvider {...pageProps}>
-            <Component {...pageProps} />
-            <ExternalPlugins {...pageProps} />
+           <div className="background-container">
+             <img src={imageUrl} alt="background image" className="background-image" />
+           </div>
+             <Component {...pageProps} />
+           <ExternalPlugins {...pageProps} />
         </GlobalContextProvider>
   )
 }
