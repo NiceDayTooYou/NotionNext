@@ -172,7 +172,7 @@ export default function Footer() {
                     </ul>
 
                     {/* Copyrights note */}
-                    <div className="text-sm text-gray-600 mr-4">&copy; Li Yong❤️. All rights reserved.</div>
+                    <div className="text-sm text-gray-600 mr-4">&copy; LiYong. All rights reserved.</div>
 
                 </div>
 
