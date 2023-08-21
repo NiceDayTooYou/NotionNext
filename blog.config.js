@@ -216,13 +216,6 @@
       url: 'https://music.163.com/song/media/outer/url?id=5084246.mp3',
       cover:
             'https://p1.music.126.net/LrC6eznDRysA-NziURtBzg==/1790004930031437.jpg'
-    },
-    {
-      name: 'Lifeline',
-      artist: 'Falcom Sound Team jdk',
-      url: 'https://music.163.com/song/media/outer/url?id=38019092.mp3',
-      cover:
-            'https://p2.music.126.net/rukrV8tgLCltzzT7ZJJ6Yw==/109951163861234431.jpg'
     }
   ],
   MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
