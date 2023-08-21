@@ -1,6 +1,6 @@
 /* 设置背景图片容器样式 */
 .background-container {
-  background-image: url('https://s1.ax1x.com/2023/08/20/pP8GeK0.jpg'); /* 背景图片的路径 */
+  background-image: url(''); /* 背景图片的路径 */
   background-size: cover; /* 图片等比例缩放以填充容器 */
   background-repeat: no-repeat; /* 不重复平铺背景图片 */
   background-attachment: fixed; /* 让背景图片固定在视口，不随滚动而移动 */
