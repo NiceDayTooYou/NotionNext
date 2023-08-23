@@ -22,7 +22,7 @@ const CONFIG = {
   HERO_TITLE_LINK: 'https://space.bilibili.com/1375298909/',
 
   // 英雄区显示三个置顶分类
-  HERO_CATEGORY_1: { title: 'Serendipity', url: 'https://github.com/NiceDayTooYou' },
+  HERO_CATEGORY_1: { title: 'Serendipity', url: 'https://notion-web-chi.vercel.app' },
   HERO_CATEGORY_2: { title: 'Connect', url: 'https://github.com/NiceDayTooYou' },
   HERO_CATEGORY_3: { title: 'Smile', url: 'https://flowcv.com/resume/ww2mhitt2c' },
 
