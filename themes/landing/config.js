@@ -47,7 +47,7 @@ const CONFIG = {
   FEATURES_BLOCK_6_P: '最大的幸福就是生活在当下，充分珍惜每一刻。',
 
   // 感言
-  TESTIMONIALS_HEADER: 'If You Don't Know, Now You Know',
+  TESTIMONIALS_HEADER: '如果你不知道，现在你知道了',
   TESTIMONIALS_P: '这只是一个页面，来自互联网的另外一端，希望对你有所收获',
 
   TESTIMONIALS_AVATAR: 'https://s1.ax1x.com/2023/08/20/pP86kin.png',
