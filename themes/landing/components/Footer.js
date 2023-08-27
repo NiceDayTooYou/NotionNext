@@ -44,13 +44,13 @@ export default function Footer() {
                             <Logo />
                         </div>
                         <div className="text-sm text-gray-600">
-                            <Link href="/terms-of-use" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">服务条款</Link> · <Link href="/privacy-policy" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">隐私政策</Link>
+                            <Link href="/terms-of-use" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out"></Link> · <Link href="/privacy-policy" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out"></Link>
                         </div>
                     </div>
 
                     {/* 2nd block */}
                     <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-                        <h6 className="text-gray-800 font-medium mb-2">产品</h6>
+                        <h6 className="text-gray-800 font-medium mb-2"></h6>
                         <ul className="text-sm">
                             <li className="mb-2">
                                 <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">NotionNext</a>
@@ -72,44 +72,44 @@ export default function Footer() {
 
                     {/* 3rd block */}
                     <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-                        <h6 className="text-gray-800 font-medium mb-2">资源</h6>
+                        <h6 className="text-gray-800 font-medium mb-2"></h6>
                         <ul className="text-sm">
                             <li className="mb-2">
-                                <a href="https://docs.tangly1024.com" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">技术文档</a>
+                                <a href="https://liyong.online/" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"></a>
                             </li>
                             <li className="mb-2">
-                                <a href="https://docs.tangly1024.com" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">教程指南</a>
+                                <a href="https://liyong.online/" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"></a>
                             </li>
                             <li className="mb-2">
-                                <a href="https://blog.tangly1024.com" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">博客</a>
+                                <a href="https://liyong.online/" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"></a>
                             </li>
                             <li className="mb-2">
-                                <a href="https://blog.tangly1024.com" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">支持中心</a>
+                                <a href="https://liyong.online/" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"></a>
                             </li>
                             <li className="mb-2">
-                                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">合作方</a>
+                                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"></a>
                             </li>
                         </ul>
                     </div>
 
                     {/* 4th block */}
                     <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-                        <h6 className="text-gray-800 font-medium mb-2">企业</h6>
+                        <h6 className="text-gray-800 font-medium mb-2"></h6>
                         <ul className="text-sm">
                             <li className="mb-2">
-                                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">主页</a>
+                                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"></a>
                             </li>
                             <li className="mb-2">
-                                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">关于我们</a>
+                                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"></a>
                             </li>
                             <li className="mb-2">
-                                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">公司价值观</a>
+                                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"></a>
                             </li>
                             <li className="mb-2">
-                                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">价格</a>
+                                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"></a>
                             </li>
                             <li className="mb-2">
-                                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">隐私政策</a>
+                                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"></a>
                             </li>
                         </ul>
                     </div>
@@ -125,7 +125,7 @@ export default function Footer() {
                                     <div className="w-full">
                                         <label className="block text-sm sr-only" htmlFor="newsletter">Email</label>
                                         <div className="relative flex items-center max-w-xs">
-                                            <input disabled={success} id="newsletter" type="email" className="form-input w-full text-gray-800 px-3 py-2 pr-12 text-sm" placeholder="Your email" required />
+                                            <input disabled={success} id="newsletter" type="email" className="form-input w-full text-gray-800 px-3 py-2 pr-12 text-sm" placeholder="nicedaytoooyou@gmail.com" required />
                                             <button disabled={success} type="submit" className="absolute inset-0 left-auto" aria-label="Subscribe">
                                                 <span className="absolute inset-0 right-auto w-px -ml-px my-2 bg-gray-300" aria-hidden="true"></span>
                                                 <svg className="w-3 h-3 fill-current text-blue-600 mx-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
