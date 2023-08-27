@@ -1,64 +1,64 @@
 const CONFIG = {
 
-  HEADER_BUTTON_1_TITLE: 'Github开源',
-  HEDEAR_BUTTON_1_URL: 'https://github.com/tangly1024/NotionNext',
+  HEADER_BUTTON_1_TITLE: 'Github',
+  HEDEAR_BUTTON_1_URL: 'https://github.com/NiceDayTooYou',
 
-  HEADER_BUTTON_2_TITLE: '作者博客',
-  HEDEAR_BUTTON_2_URL: 'https://blog.tangly1024.com/',
+  HEADER_BUTTON_2_TITLE: '我的页面',
+  HEDEAR_BUTTON_2_URL: 'https://web.liyong.online',
 
   // 首页大图英雄板块
-  HERO_TITLE_1: 'NotionNext',
-  HERO_P_1: '快速搭建独立站、轻松放大品牌价值！',
-  HERO_BUTTON_1_TEXT: '开始体验',
-  HERO_BUTTON_1_LINK: 'https://docs.tangly1024.com/article/vercel-deploy-notion-next',
-  HERO_BUTTON_2_TEXT: '了解更多',
-  HERO_BUTTON_2_LINK: 'https://docs.tangly1024.com/about',
+  HERO_TITLE_1: 'Li Yong',
+  HERO_P_1: '热爱生活，知足常乐',
+  HERO_BUTTON_1_TEXT: 'My page',
+  HERO_BUTTON_1_LINK: 'https://liyong.online/',
+  HERO_BUTTON_2_TEXT: 'About me',
+  HERO_BUTTON_2_LINK: 'https://flowcv.com/resume/ww2mhitt2c',
   HERO_VIDEO_IMAGE: '/images/home.png',
   //   HERO_VIDEO_URL: '/videos/video.mp4',
   HERO_VIDEO_IFRAME: '//player.bilibili.com/player.html?aid=913088616&bvid=BV1fM4y1L7Qi&cid=1187218697&page=1&&high_quality=1',
   HERO_VIDEO_TIPS: 'Watch the full video (2 min)',
 
   // 特性介绍
-  FEATURES_HEADER_1: '探索的过程',
-  FEATURES_HEADER_1_P: "如何搭建自己的门户网站，塑造一个品牌展示中心？<br/>曾经，它是系统<strong class='font-bold text-red-500'>繁重</strong>的Wordpress、是操作<strong class='font-bold  text-red-500'>复杂</strong>的Hexo、是<strong class='font-bold text-red-500'>昂贵</strong>且<strong class='font-bold text-red-500'>不稳定</strong>的技术团队;<br/>现在，只要一个Notion笔记就够了",
-  FEATURES_HEADER_2: 'Notion+NextJs组合方案',
-  FEATURES_HEADER_2_P: 'Notion作为CMS管理您的站点配置和网页数据，NextJs作为渲染博客的脚本，借助第三方的Vercel等托管平台提供网络服务。',
-  FEATURES_CARD_1_TITLE: '简单快速的系统',
-  FEATURES_CARD_1_P: '在Notion中写下一篇文章，内容立刻在您的网站首页中呈现给互联网',
-  FEATURES_CARD_2_TITLE: '高效传播的媒介',
-  FEATURES_CARD_2_P: '优秀的SEO、快速的响应速度，让您的产品和宣传触达到更多的受众',
-  FEATURES_CARD_3_TITLE: '人性化的定制工具',
-  FEATURES_CARD_3_P: '多款主题供您挑选，可以搭建各种不同风格和作用的网站，更多的主题正在陆续加入中。',
+  FEATURES_HEADER_1: 'My Hobbies',
+  FEATURES_HEADER_1_P: "兴趣爱好是能够让你摆脱无聊和永远开心的一面<br/>我的兴趣爱好也很多，比如<strong class='font-bold text-red-500'>English</strong>是的，我知道它很简单、<strong class='font-bold  text-red-500'>Oil Painting</strong>油画让我对色彩更加了解、<strong class='font-bold text-red-500'>Photography</strong>记录生活<strong class='font-bold text-red-500'>Game</strong>是另外一个世界;<br/>My principles, love life, contentment, that's fine",
+  FEATURES_HEADER_2: 'Li Yong',
+  FEATURES_HEADER_2_P: '我是一个很笨的人，而且我也很懒，我也是一个平凡的普通人，我想让自己变得更好一点。',
+  FEATURES_CARD_1_TITLE: 'English',
+  FEATURES_CARD_1_P: '我以前上学的时候并不喜欢上英语课，因为当时感觉它是很尴尬的语言，很别扭，完全没有兴趣学习',
+  FEATURES_CARD_2_TITLE: 'Oil Painting',
+  FEATURES_CARD_2_P: '画画可能是我的天赋，也可能不是，虽然我画的并没有那么好，但是我确实喜欢画',
+  FEATURES_CARD_3_TITLE: 'Photography',
+  FEATURES_CARD_3_P: '摄影看起来很简单，只是一张照片，但是需要学的东西很多。',
 
   // 特性介绍2
-  FEATURES_BLOCK_HEADER: '解决方案',
-  FEATURES_BLOCK_P: '人人自媒体的时代，一个网站将帮您链接更多的人，带给你无限的机会和客户。<br/>您还在等什么呢？',
+  FEATURES_BLOCK_HEADER: 'Li Yong',
+  FEATURES_BLOCK_P: '兴趣是最好的热爱，它能引领我们进入一个充满激情和创造力的世界。',
   FEATURES_BLOCK_1_TITLE: '用网站来展示品牌',
-  FEATURES_BLOCK_1_P: '比起线下渠道、一个公开域名和网站更有说服力',
-  FEATURES_BLOCK_2_TITLE: 'SEO带来更多流量',
-  FEATURES_BLOCK_2_P: '借助搜索引擎，精准定位您的受众',
-  FEATURES_BLOCK_3_TITLE: '网站的性能很重要',
-  FEATURES_BLOCK_3_P: '更快的响应，更好的用户体验',
-  FEATURES_BLOCK_4_TITLE: '打造您的个人品牌',
-  FEATURES_BLOCK_4_P: '继马斯克、乔布斯之后，您将是下一个传奇',
-  FEATURES_BLOCK_5_TITLE: '写作表达是核心技能',
-  FEATURES_BLOCK_5_P: '比起只阅读输入，更重要的是反思和输出',
-  FEATURES_BLOCK_6_TITLE: '开始写博客吧',
-  FEATURES_BLOCK_6_P: 'NotionNext，助您轻松开始写作',
+  FEATURES_BLOCK_1_P: '生命短暂，别浪费时间去怨恨他人，要去爱自己和爱她人',
+  FEATURES_BLOCK_2_TITLE: 'Photography',
+  FEATURES_BLOCK_2_P: '热衷于摄影和自然探索。 分享生活之美的快照，寻求镜头之外的冒险。',
+  FEATURES_BLOCK_3_TITLE: 'Painting',
+  FEATURES_BLOCK_3_P: '当我手握画笔的时候，世界变成了我的画布，每一幅作品都是我内心情感的真实流露。',
+  FEATURES_BLOCK_4_TITLE: 'Life',
+  FEATURES_BLOCK_4_P: '人生中最重要的决定之一就是要么过自己想要的生活，要么过别人想要的生活。',
+  FEATURES_BLOCK_5_TITLE: 'Evolution',
+  FEATURES_BLOCK_5_P: '行动是成就一切的首要条件。',
+  FEATURES_BLOCK_6_TITLE: 'Feeling',
+  FEATURES_BLOCK_6_P: '最大的幸福就是生活在当下，充分珍惜每一刻。',
 
   // 感言
-  TESTIMONIALS_HEADER: '已搭建超4000个网站、浏览量突破 100,000,000+',
-  TESTIMONIALS_P: '网站内容涵盖地产、教育、建筑、医学、机械、IT、电子、软件、自媒体、数位游民、短视频、电商、学生、摄影爱好者、旅行爱好者等等各行各业',
+  TESTIMONIALS_HEADER: 'If You Don't Know, Now You Know',
+  TESTIMONIALS_P: '这只是一个页面，来自互联网的另外一端，希望对你有所收获',
 
-  TESTIMONIALS_AVATAR: 'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F22de3fcb-d90d-4271-bc01-f815f476122b%2F4FE0A0C0-E487-4C74-BF8E-6F01A27461B8-14186-000008094BC289A6.jpg?table=collection&id=a320a2cc-6ebe-4a8d-95cc-ea94e63bced9&width=200',
-  TESTIMONIALS_NICKNAME: 'Ryan_G',
-  TESTIMONIALS_ID: 'Ryan`Log 站长',
-  TESTIMONIALS_SOCIAL_NAME: '@Gaoran',
-  TESTIMONIALS_SOCIAL_URL: 'https://blog.gaoran.xyz/',
-  TESTIMONIALS_WORD: '“ 感谢大佬的方法。之前尝试过Super、Potion等国外的第三方平台，实现效果一般，个性化程度远不如这个方法，已经用起来了！ “',
+  TESTIMONIALS_AVATAR: 'https://s1.ax1x.com/2023/08/20/pP86kin.png',
+  TESTIMONIALS_NICKNAME: 'Serendipity',
+  TESTIMONIALS_ID: '点击访问',
+  TESTIMONIALS_SOCIAL_NAME: 'Li Yong',
+  TESTIMONIALS_SOCIAL_URL: 'https://web.liyong.online',
+  TESTIMONIALS_WORD: '“ 昨天是段历史，明天是个谜团，而今天是天赐的礼物，要像珍惜礼物那样珍惜今天 “',
 
-  POST_REDIRECT_ENABLE: process.env.NEXT_PUBLIC_POST_REDIRECT_ENABLE || false, // 是否开启文章地址重定向 ； 用于迁移旧网站域名
-  POST_REDIRECT_URL: process.env.NEXT_PUBLIC_POST_REDIRECT_URL || 'https://blog.tangly1024.com', // 重定向网站地址
+  POST_REDIRECT_ENABLE: process.env.NEXT_PUBLIC_POST_REDIRECT_ENABLE || true, // 是否开启文章地址重定向 ； 用于迁移旧网站域名
+  POST_REDIRECT_URL: process.env.NEXT_PUBLIC_POST_REDIRECT_URL || 'https://web.liyong.online', // 重定向网站地址
 
   NEWSLETTER: process.env.NEXT_PUBLIC_THEME_LANDING_NEWSLETTER || false // 是否开启邮件订阅 请先配置mailchimp功能 https://docs.tangly1024.com/article/notion-next-mailchimp
 }
