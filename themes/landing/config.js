@@ -20,7 +20,7 @@ const CONFIG = {
 
   // 特性介绍
   FEATURES_HEADER_1: 'My Hobbies',
-  FEATURES_HEADER_1_P: "兴趣爱好是能够让你摆脱无聊和永远开心的一面<br/>我的兴趣爱好也很多，比如<strong class='font-bold text-red-500'>English</strong>是的，我知道它很简单、<strong class='font-bold  text-red-500'>Oil Painting</strong>油画让我对色彩更加了解、<strong class='font-bold text-red-500'>Photography</strong>记录生活<strong class='font-bold text-red-500'>Game</strong>是另外一个世界;<br/>My principles, love life, contentment, that's fine",
+  FEATURES_HEADER_1_P: "兴趣爱好能够远离无聊和永远开心<br/>我的兴趣爱好也很多，比如<strong class='font-bold text-red-500'>English</strong>是的，我知道它很简单、<strong class='font-bold  text-red-500'>Oil Painting</strong>油画让我对色彩更加了解、<strong class='font-bold text-red-500'>Photography</strong>记录生活<strong class='font-bold text-red-500'>Game</strong>是另外一个世界;<br/>My principles, love life, contentment, that's fine",
   FEATURES_HEADER_2: 'Li Yong',
   FEATURES_HEADER_2_P: '我是一个很笨的人，而且我也很懒，我也是一个平凡的普通人，只是想让自己变得更好一点。',
   FEATURES_CARD_1_TITLE: 'English',
@@ -34,21 +34,21 @@ const CONFIG = {
   FEATURES_BLOCK_HEADER: 'Li Yong',
   FEATURES_BLOCK_P: '兴趣是最好的热爱，它能引领我们进入一个充满激情和创造力的世界。',
   FEATURES_BLOCK_1_TITLE: 'Belief',
-  FEATURES_BLOCK_1_P: '生命短暂，别浪费时间去怨恨他人，要去爱自己和爱她人',
+  FEATURES_BLOCK_1_P: '生命短暂，要学会爱自己和爱她人',
   FEATURES_BLOCK_2_TITLE: 'Photography',
-  FEATURES_BLOCK_2_P: '热衷于摄影和自然探索。 分享生活之美的快照，寻求镜头之外的冒险。',
+  FEATURES_BLOCK_2_P: '分享生活之美，寻找镜头之外的故事。',
   FEATURES_BLOCK_3_TITLE: 'Painting',
   FEATURES_BLOCK_3_P: '当我手握画笔的时候，世界变成了我的画布。',
   FEATURES_BLOCK_4_TITLE: 'Life',
-  FEATURES_BLOCK_4_P: '人生中最重要的决定之一就是要么过自己想要的生活，要么过别人想要的生活。',
+  FEATURES_BLOCK_4_P: '要么过自己想要的生活，要么过别人想要的生活。',
   FEATURES_BLOCK_5_TITLE: 'Evolution',
   FEATURES_BLOCK_5_P: '行动是成就一切的首要条件。',
   FEATURES_BLOCK_6_TITLE: 'Feeling',
-  FEATURES_BLOCK_6_P: '最大的幸福就是生活在当下，充分珍惜每一刻。',
+  FEATURES_BLOCK_6_P: '最大的幸福就是生活在当下，珍惜每一刻。',
 
   // 感言
   TESTIMONIALS_HEADER: '如果你不知道，现在你知道了',
-  TESTIMONIALS_P: '这只是一个页面，来自互联网的另外一端，希望对你有所收获',
+  TESTIMONIALS_P: '这只是一个页面，来自互联网的另外一端，谢谢你到此一游',
 
   TESTIMONIALS_AVATAR: 'https://s1.ax1x.com/2023/08/20/pP86kin.png',
   TESTIMONIALS_NICKNAME: 'Serendipity',
