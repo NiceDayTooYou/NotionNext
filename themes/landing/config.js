@@ -4,7 +4,7 @@ const CONFIG = {
   HEDEAR_BUTTON_1_URL: 'https://github.com/NiceDayTooYou',
 
   HEADER_BUTTON_2_TITLE: '我的页面',
-  HEDEAR_BUTTON_2_URL: 'https://web.liyong.online',
+  HEDEAR_BUTTON_2_URL: 'https://liyong.online/',
 
   // 首页大图英雄板块
   HERO_TITLE_1: 'Li Yong',
@@ -15,8 +15,8 @@ const CONFIG = {
   HERO_BUTTON_2_LINK: 'https://flowcv.com/resume/ww2mhitt2c',
   HERO_VIDEO_IMAGE: '/images/home.png',
   //   HERO_VIDEO_URL: '/videos/video.mp4',
-  HERO_VIDEO_IFRAME: '//player.bilibili.com/player.html?aid=913088616&bvid=BV1fM4y1L7Qi&cid=1187218697&page=1&&high_quality=1',
-  HERO_VIDEO_TIPS: 'Watch the full video (2 min)',
+  HERO_VIDEO_IFRAME: '//player.bilibili.com/player.html?aid=231057676&bvid=BV1N8411S7zo&cid=1198768438&page=1&&high_quality=1',
+  HERO_VIDEO_TIPS: '这只是一个测试视频 (4 min)',
 
   // 特性介绍
   FEATURES_HEADER_1: 'My Hobbies',
@@ -58,7 +58,7 @@ const CONFIG = {
   TESTIMONIALS_WORD: '“ 昨天是段历史，明天是个谜团，而今天是天赐的礼物，要像珍惜礼物那样珍惜今天 “',
 
   POST_REDIRECT_ENABLE: process.env.NEXT_PUBLIC_POST_REDIRECT_ENABLE || true, // 是否开启文章地址重定向 ； 用于迁移旧网站域名
-  POST_REDIRECT_URL: process.env.NEXT_PUBLIC_POST_REDIRECT_URL || 'https://web.liyong.online', // 重定向网站地址
+  POST_REDIRECT_URL: process.env.NEXT_PUBLIC_POST_REDIRECT_URL || 'https://liyong.online/', // 重定向网站地址
 
   NEWSLETTER: process.env.NEXT_PUBLIC_THEME_LANDING_NEWSLETTER || false // 是否开启邮件订阅 请先配置mailchimp功能 https://docs.tangly1024.com/article/notion-next-mailchimp
 }
