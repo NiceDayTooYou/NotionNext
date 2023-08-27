@@ -22,7 +22,7 @@ const CONFIG = {
   FEATURES_HEADER_1: 'My Hobbies',
   FEATURES_HEADER_1_P: "兴趣爱好是能够让你摆脱无聊和永远开心的一面<br/>我的兴趣爱好也很多，比如<strong class='font-bold text-red-500'>English</strong>是的，我知道它很简单、<strong class='font-bold  text-red-500'>Oil Painting</strong>油画让我对色彩更加了解、<strong class='font-bold text-red-500'>Photography</strong>记录生活<strong class='font-bold text-red-500'>Game</strong>是另外一个世界;<br/>My principles, love life, contentment, that's fine",
   FEATURES_HEADER_2: 'Li Yong',
-  FEATURES_HEADER_2_P: '我是一个很笨的人，而且我也很懒，我也是一个平凡的普通人，我想让自己变得更好一点。',
+  FEATURES_HEADER_2_P: '我是一个很笨的人，而且我也很懒，我也是一个平凡的普通人，只是想让自己变得更好一点。',
   FEATURES_CARD_1_TITLE: 'English',
   FEATURES_CARD_1_P: '我以前上学的时候并不喜欢上英语课，因为当时感觉它是很尴尬的语言，很别扭，完全没有兴趣学习',
   FEATURES_CARD_2_TITLE: 'Oil Painting',
