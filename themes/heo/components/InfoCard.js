@@ -20,7 +20,7 @@ export function InfoCard(props) {
   const isSlugPage = router.pathname === '/[...slug]'
 
   return (
-        <Card className='bg-[#EEECFC] dark:bg-black-600 text-white flex flex-col w-72 overflow-hidden relative'>
+        <Card className='bg-[#EEECFC] dark:bg-true gray-900 text-white flex flex-col w-72 overflow-hidden relative'>
             {/* 信息卡牌第一行 */}
             <div className='flex justify-between'>
                 {/* 问候语 */}
@@ -42,10 +42,10 @@ export function InfoCard(props) {
             <div className='flex justify-between'>
                 <div className='flex space-x-3  hover:text-black dark:hover:text-white'>
                     {/* 两个社交按钮 */}
-                    <div className='bg-indigo-400 p-2 rounded-full  transition-colors duration-200 dark:bg-yellow-500 dark:hover:bg-black hover:bg-white'>
+                    <div className='bg-true gray-900 p-2 rounded-full  transition-colors duration-200 dark:bg--500 dark:hover:bg-black hover:bg-white'>
                         <Link href='/about'><GlobeAlt className={'w-6 h-6'} /></Link>
                     </div>
-                    <div className='bg-indigo-400 p-2 rounded-full w-10 items-center flex justify-center transition-colors duration-200 dark:bg-yellow-500 dark:hover:bg-black hover:bg-white'>
+                    <div className='bg-true gray-900 p-2 rounded-full w-10 items-center flex justify-center transition-colors duration-200 dark:bg-true gray-900 dark:hover:bg-black hover:bg-white'>
                         <Link href={CONFIG.INFO_CARD_URL}><i className='fab fa-github text-xl' />
                         </Link>
                     </div>
