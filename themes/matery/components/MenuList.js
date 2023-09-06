@@ -8,7 +8,7 @@ const MenuList = (props) => {
   const { postCount, customNav } = props
   const { locale } = useGlobal()
   const router = useRouter()
-  const archiveSlot = <div className='bg-gray-300 dark:bg-gray-500 rounded-md text-gray-50 px-1 text-xs'>{postCount}</div>
+  const archiveSlot = <div className='bg-gray-900 dark:bg-gray-900 rounded-md text-gray-50 px-1 text-xs'>{postCount}</div>
 
   let links = [
     { icon: 'fas fa-home', name: locale.NAV.INDEX, to: '/' || '/', show: true },
@@ -22,7 +22,7 @@ const MenuList = (props) => {
   }
 
   return (
-    <nav id='nav' className='leading-8 text-gray-500 dark:text-gray-300 '>
+    <nav id='nav' className='leading-8 text-gray-900 dark:text-gray-50 '>
       {links.map(link => {
         if (link && link.show) {
           const selected = (router.pathname === link.to) || (router.asPath === link.to)
@@ -31,8 +31,8 @@ const MenuList = (props) => {
               key={`${link.to}`}
               title={link.to}
               href={link.to}
-              className={'py-1.5 px-5 text-base justify-between hover:bg-indigo-400 hover:text-white hover:shadow-lg cursor-pointer font-light flex flex-nowrap items-center ' +
-                (selected ? 'bg-gray-200 text-black' : ' ')}>
+              className={'py-1.5 px-5 text-base justify-between hover:bg-gray-900 hover:text-white hover:shadow-lg cursor-pointer font-light flex flex-nowrap items-center ' +
+                (selected ? 'bg-gray-50 text-black' : ' ')}>
 
               <div className='my-auto items-center justify-center flex '>
                 <i className={`${link.icon} w-4 text-center`} />
