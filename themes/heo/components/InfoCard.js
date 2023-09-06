@@ -68,7 +68,7 @@ function GreetingsWords() {
     setGreeting(greetings[randomIndex])
   }
 
-  return <div onClick={handleChangeGreeting} className=' select-none cursor-pointer py-1 px-2 bg-indigo-400 hover:bg-indigo-50  hover:text-indigo-950 dark:bg-yellow-500 dark:hover:text-white dark:hover:bg-black text-sm rounded-lg  duration-200 transition-colors'>
+  return <div onClick={handleChangeGreeting} className=' select-none cursor-pointer py-1 px-2 bg-gray-900 hover:bg-gray-900  hover:text-gray-900 dark:bg-gray-900 dark:hover:text-white dark:hover:bg-black text-sm rounded-lg  duration-200 transition-colors'>
         {greeting}
     </div>
 }
@@ -79,7 +79,7 @@ function GreetingsWords() {
  */
 function MoreButton() {
   return <Link href='https://flowcv.com/resume/ww2mhitt2c'>
-        <div className={'group bg-indigo-400 dark:bg-yellow-500 hover:bg-white dark:hover:bg-black hover:text-black dark:hover:text-white flex items-center transition-colors duration-200 py-2 px-3 rounded-full space-x-1'}>
+        <div className={'group bg-gray-900 dark:bg-gray-900 hover:bg-white dark:hover:bg-black hover:text-black dark:hover:text-white flex items-center transition-colors duration-200 py-2 px-3 rounded-full space-x-1'}>
             <ArrowRightCircle className={'group-hover:stroke-black dark:group-hover:stroke-white w-6 h-6 transition-all duration-100'} />
             <div className='font-bold'>Discover</div>
         </div>
