@@ -44,7 +44,7 @@ const LayoutBase = props => {
   const { children, headerSlot, slotTop, slotRight, siteInfo, className, meta } = props
 
   return (
-        <div id='theme-heo' className='bg-[#f7f9fe] dark:bg-[#18171d] h-full min-h-screen flex flex-col'>
+        <div id='theme-heo' className='bg-[#EEECFC] dark:bg-[#18171d] h-full min-h-screen flex flex-col'>
             {/* SEO信息 */}
             <CommonHead meta={meta} />
             <Style />
@@ -295,7 +295,7 @@ const Layout404 = props => {
   const { meta, siteInfo } = props
   const { onLoading } = useGlobal()
   return (
-        <div id='theme-heo' className='bg-[#f7f9fe] h-full min-h-screen flex flex-col'>
+        <div id='theme-heo' className='bg-[#EEECFC] h-full min-h-screen flex flex-col'>
             {/* 网页SEO */}
             <CommonHead meta={meta} siteInfo={siteInfo} />
             <Style />
