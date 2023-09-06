@@ -40,7 +40,7 @@ export default function CategoryBar(props) {
             <div id='right' className='cursor-pointer mx-2' onClick={handleToggleScroll}>
             {scrollRight ? <ChevronDoubleLeft className={'w-5 h-5'} /> : <ChevronDoubleRight className={'w-5 h-5'} /> }
             </div>
-            <Link href='/category' className='whitespace-nowrap font-bold text-white dark:text-white transition-colors duration-200 hover:text-white'>
+            <Link href='/category' className='whitespace-nowrap font-bold text-gray-900 dark:text-white transition-colors duration-200 hover:text-white'>
                 {locale.MENU.CATEGORY}
             </Link>
         </div>
