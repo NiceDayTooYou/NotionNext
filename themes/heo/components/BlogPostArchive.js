@@ -30,7 +30,7 @@ const BlogPostArchive = ({ posts = [], archiveTitle, siteInfo }) => {
                         post.pageCoverThumbnail = siteInfo?.pageCover
                       }
                       const showPageCover = CONFIG.POST_LIST_COVER && post?.pageCoverThumbnail && !showPreview
-                      return <div key={post.id} className={'cursor-pointer flex flex-row mb-4 h-24 md:flex-row group w-full  dark:border-gray-600 hover:border-indigo-600  dark:hover:border-yellow-600 duration-300 transition-colors justify-between overflow-hidden'}>
+                      return <div key={post.id} className={'cursor-pointer flex flex-row mb-4 h-24 md:flex-row group w-full  dark:border-gray-900 hover:border-gary-900  dark:hover:border-gray-900 duration-300 transition-colors justify-between overflow-hidden'}>
 
                             {/* 图片封面 */}
                             {showPageCover && (
@@ -45,9 +45,9 @@ const BlogPostArchive = ({ posts = [], archiveTitle, siteInfo }) => {
                             <div className={'flex px-2 flex-col justify-between w-full'}>
                                 <div>
                                     {/* 分类 */}
-                                    {post?.category && <div className={`flex items-center ${showPreview ? 'justify-center' : 'justify-start'} hidden md:block flex-wrap dark:text-gray-500 text-gray-600 `}>
+                                    {post?.category && <div className={`flex items-center ${showPreview ? 'justify-center' : 'justify-start'} hidden md:block flex-wrap dark:text-gray-50 text-gray-50 `}>
                                         <Link passHref href={`/category/${post.category}`}
-                                            className="cursor-pointer text-xs font-normal menu-link hover:text-indigo-700  dark:text-gray-600 transform">
+                                            className="cursor-pointer text-xs font-normal menu-link hover:text-green-400  dark:text-gray-50 transform">
                                             {post.category}
                                         </Link>
                                     </div>}
@@ -56,13 +56,13 @@ const BlogPostArchive = ({ posts = [], archiveTitle, siteInfo }) => {
                                     <Link
                                         href={`${BLOG.SUB_PATH}/${post.slug}`}
                                         passHref
-                                        className={' group-hover:text-indigo-700 group-hover:dark:text-indigo-400 text-black dark:text-gray-100 dark:group-hover:text-yellow-600 line-clamp-2 replace cursor-pointer text-xl font-extrabold leading-tight'}>
+                                        className={' group-hover:text-green-400 group-hover:dark:text-green-400 text-black dark:text-gray-50 dark:group-hover:text-green-400 line-clamp-2 replace cursor-pointer text-xl font-extrabold leading-tight'}>
                                         <span className='menu-link '>{post.title}</span>
                                     </Link>
                                 </div>
 
                                 {/* 摘要 */}
-                                    {/* <p className="line-clamp-1 replace my-3 2xl:my-0 text-gray-700  dark:text-gray-300 text-xs font-light leading-tight">
+                                    {/* <p className="line-clamp-1 replace my-3 2xl:my-0 text-gray-900  dark:text-gray-50 text-xs font-light leading-tight">
                                         {post.summary}
                                     </p> */}
 
