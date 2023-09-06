@@ -29,7 +29,7 @@ export const ArticleLock = props => {
 
   return <div id='container' className='w-full flex justify-center items-center h-96 '>
     <div className='text-center space-y-3'>
-      <div className='font-bold dark:text-gray-300 text-black'>{locale.COMMON.ARTICLE_LOCK_TIPS}</div>
+      <div className='font-bold dark:text-gray-50 text-black'>{locale.COMMON.ARTICLE_LOCK_TIPS}</div>
       <div className='flex mx-4'>
         <input id="password" type='password'
             onKeyDown={(e) => {
@@ -38,9 +38,9 @@ export const ArticleLock = props => {
               }
             }}
             ref={passwordInputRef} // 绑定ref到passwordInputRef变量
-            className='outline-none w-full text-sm pl-5 rounded-l transition focus:shadow-lg  font-light leading-10 bg-gray-100 dark:bg-gray-500'>
+            className='outline-none w-full text-sm pl-5 rounded-l transition focus:shadow-lg  font-light leading-10 bg-gray-50 dark:bg-gray-900'>
         </input>
-        <div onClick={submitPassword} className="px-3 whitespace-nowrap cursor-pointer items-center justify-center py-2 bg-indigo-500 hover:bg-indigo-400 text-white rounded-r duration-300" >
+        <div onClick={submitPassword} className="px-3 whitespace-nowrap cursor-pointer items-center justify-center py-2 bg-gray-900 hover:bg-gray-900 text-white rounded-r duration-300" >
           <i className={'duration-200 cursor-pointer fas fa-key'} >&nbsp;{locale.COMMON.SUBMIT}</i>
         </div>
       </div>
