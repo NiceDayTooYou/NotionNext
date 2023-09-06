@@ -53,7 +53,7 @@ export default function ArticleAdjacent({ prev, next }) {
                 <Link
                     href={`/${prev.slug}`}
                     passHref
-                    className='cursor-pointer justify-between space-y-1 px-5 py-6 rounded-t-xl dark:bg-[#1e1e1e] border dark:border-gray-600 border-b-0 items-center dark:text-white flex flex-col w-full h-18 duration-200'
+                    className='cursor-pointer justify-between space-y-1 px-5 py-6 rounded-t-xl dark:bg-[#1e1e1e] border dark:border-gray-900 border-b-0 items-center dark:text-white flex flex-col w-full h-18 duration-200'
                 >
                     <div className='flex justify-start items-center w-full'>上一篇</div>
                     <div className='flex justify-center items-center text-lg font-bold'>{prev.title}</div>
@@ -61,7 +61,7 @@ export default function ArticleAdjacent({ prev, next }) {
                 <Link
                     href={`/${next.slug}`}
                     passHref
-                    className='cursor-pointer justify-between space-y-1 px-5 py-6 rounded-b-xl dark:bg-[#1e1e1e] border dark:border-gray-600 items-center dark:text-white flex flex-col w-full h-18 duration-200'
+                    className='cursor-pointer justify-between space-y-1 px-5 py-6 rounded-b-xl dark:bg-[#1e1e1e] border dark:border-gray-900 items-center dark:text-white flex flex-col w-full h-18 duration-200'
                 >
                     <div className='flex justify-start items-center w-full'>下一篇</div>
                     <div className='flex justify-center items-center text-lg font-bold'>{next.title}</div>
@@ -73,7 +73,7 @@ export default function ArticleAdjacent({ prev, next }) {
             <div id='pc-next-post' className={`hidden md:block fixed z-40 right-24 bottom-4 duration-200 transition-all ${isScrollEnd ? 'mb-0 opacity-100' : '-mb-24 opacity-0'}`}>
                 <Link
                     href={`/${next.slug}`}
-                    className='cursor-pointer drop-shadow-xl duration transition-all h-24 dark:bg-[#1e1e1e] border dark:border-gray-600 p-3 bg-white dark:text-gray-300 dark:hover:text-yellow-600 hover:text-white hover:font-bold hover:bg-blue-600 rounded-lg flex flex-col justify-between'
+                    className='cursor-pointer drop-shadow-xl duration transition-all h-24 dark:bg-[#1e1e1e] border dark:border-gray-900 p-3 bg-white dark:text-gray-50 dark:hover:text-green-400 hover:text-white hover:font-bold hover:bg-gray-900 rounded-lg flex flex-col justify-between'
                 >
                     <div className='text-xs'>下一篇</div>
                     <hr />
