@@ -44,7 +44,7 @@ const LayoutBase = props => {
   const { children, headerSlot, slotTop, slotRight, siteInfo, className, meta } = props
 
   return (
-        <div id='theme-heo' className='bg-[#EEECFC] dark:bg-[#000000] h-full min-h-screen flex flex-col'>
+        <div id='theme-heo' className='bg-[#EEECFC] dark:bg-[#1a191d] h-full min-h-screen flex flex-col'>
             {/* SEO信息 */}
             <CommonHead meta={meta} />
             <Style />
@@ -189,7 +189,7 @@ const LayoutArchive = (props) => {
   // 归档页顶部显示条，如果是默认归档则不显示。分类详情页显示分类列表，标签详情页显示当前标签
 
   return <LayoutBase {...props} slotRight={slotRight} headerSlot={headerSlot}>
-        <div className='p-5 rounded-xl border dark:border-gray-900 max-w-6xl w-full bg-white dark:bg-[#1e1e1e]'>
+        <div className='p-5 rounded-xl border dark:border-gray-900 max-w-6xl w-full bg-white dark:bg-[#1a191d]'>
             {/* 文章分类条 */}
             <CategoryBar {...props} border={false} />
 
@@ -230,7 +230,7 @@ const LayoutSlug = props => {
 
   return (
         <LayoutBase {...props} headerSlot={headerSlot} showCategory={false} showTag={false} slotRight={slotRight}>
-            <div className="w-full max-w-5xl lg:hover:shadow lg:border rounded-2xl lg:px-2 lg:py-4 bg-white dark:bg-[#000000] dark:border-gray-600 article">
+            <div className="w-full max-w-5xl lg:hover:shadow lg:border rounded-2xl lg:px-2 lg:py-4 bg-white dark:bg-[#1a191d] dark:border-gray-600 article">
 
                 {lock && <ArticleLock validPassword={validPassword} />}
 
