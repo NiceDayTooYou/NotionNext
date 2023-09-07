@@ -75,7 +75,7 @@ function Banner(props) {
         <TagsGroupBar />
 
         {/* 遮罩 */}
-        <div id='banner-cover' style={{ backdropFilter: 'blur(15px)' }} className={'rounded-xl overflow-hidden opacity-0 group-hover:opacity-100 duration-300 transition-all bg-[#33ff00dd] dark:bg-[#000000] dark:text-white cursor-pointer absolute w-full h-full top-0 flex justify-start items-center'}>
+        <div id='banner-cover' style={{ backdropFilter: 'blur(15px)' }} className={'rounded-xl overflow-hidden opacity-0 group-hover:opacity-100 duration-300 transition-all bg-[#4259efdd] dark:bg-[#000000] dark:text-white cursor-pointer absolute w-full h-full top-0 flex justify-start items-center'}>
             <div className='ml-12 -translate-x-32 group-hover:translate-x-0 duration-300 transition-all ease-in'>
                 <div className='text-7xl text-white font-extrabold'>今天还好吗</div>
                 <div className='-ml-3 text-gray-50'><ArrowSmallRight className={'w-24 h-24 stroke-2'} /></div>
@@ -126,7 +126,7 @@ function GroupMenu() {
                     <i className="fa-solid fa-star text-4xl"></i>
                 </div>
             </Link>
-            <Link href={CONFIG.HERO_CATEGORY_2?.url} className="group relative overflow-hidden bg-gradient-to-r from-red-500 to-green-500 flex h-20 justify-start items-center text-white rounded-xl xl:hover:w-1/2 xl:w-1/3 transition-all duration-500 ease-in">
+            <Link href={CONFIG.HERO_CATEGORY_2?.url} className="group relative overflow-hidden bg-gradient-to-r from-gary-900 to-gary-900 flex h-20 justify-start items-center text-white rounded-xl xl:hover:w-1/2 xl:w-1/3 transition-all duration-500 ease-in">
                 <div className="font-bold lg:text-lg pl-5 relative -mt-2">
                     {CONFIG.HERO_CATEGORY_2?.title}
                     <span className="absolute -bottom-0.5 left-5 w-5 h-0.5 bg-white rounded-full"></span>
@@ -136,7 +136,7 @@ function GroupMenu() {
                 </div>
             </Link>
             {/* 第三个标签在小屏上不显示 */}
-            <Link href={CONFIG.HERO_CATEGORY_3?.url} className="group relative overflow-hidden bg-gradient-to-r from-teal-300 to-cyan-300 hidden h-20 xl:flex justify-start items-center text-white rounded-xl xl:hover:w-1/2 xl:w-1/3 transition-all duration-500 ease-in">
+            <Link href={CONFIG.HERO_CATEGORY_3?.url} className="group relative overflow-hidden bg-gradient-to-r from-gary-900 to-gary-900 hidden h-20 xl:flex justify-start items-center text-white rounded-xl xl:hover:w-1/2 xl:w-1/3 transition-all duration-500 ease-in">
                 <div className="font-bold text-lg pl-5 relative -mt-2">
                     {CONFIG.HERO_CATEGORY_3?.title}
                     <span className="absolute -bottom-0.5 left-5 w-5 h-0.5 bg-white rounded-full"></span>
@@ -171,9 +171,9 @@ function TopGroup(props) {
                   return <Link href={`${BLOG.SUB_PATH}/${p?.slug}`} key={index}>
                         <div className='cursor-pointer h-[164px] group relative flex flex-col w-52 xl:w-full overflow-hidden shadow bg-white dark:bg-black dark:text-white rounded-xl'>
                             <LazyImage priority={index === 0} className='h-24 object-cover' alt={p?.title} src={p?.pageCoverThumbnail || siteInfo?.pageCover} />
-                            <div className='group-hover:text-indigo-600 dark:group-hover:text-yellow-600 line-clamp-2 overflow-hidden m-2 font-semibold'>{p?.title}</div>
+                            <div className='group-hover:text-green-600 dark:group-hover:text-green-600 line-clamp-2 overflow-hidden m-2 font-semibold'>{p?.title}</div>
                             {/* hover 悬浮的 ‘Open’ 字 */}
-                            <div className='opacity-0 group-hover:opacity-100 -translate-x-4 group-hover:translate-x-0 duration-200 transition-all absolute -top-2 -left-2 bg-indigo-600 dark:bg-yellow-600  text-white rounded-xl overflow-hidden pr-2 pb-2 pl-4 pt-4 text-xs'>
+                            <div className='opacity-0 group-hover:opacity-100 -translate-x-4 group-hover:translate-x-0 duration-200 transition-all absolute -top-2 -left-2 bg-green-600 dark:bg-green-600  text-white rounded-xl overflow-hidden pr-2 pb-2 pl-4 pt-4 text-xs'>
                                 Open
                             </div>
                         </div>
