@@ -64,7 +64,7 @@ function Banner(props) {
     router.push(`${BLOG.SUB_PATH}/${randomPost?.slug}`)
   }
 
-  return <div id='banners' onClick={handleClickBanner} className="hidden xl:flex xl:flex-col group h-full bg-white dark:bg-[#1e1e1e] rounded-xl border dark:border-gray-700 mb-3 relative overflow-hidden">
+  return <div id='banners' onClick={handleClickBanner} className="hidden xl:flex xl:flex-col group h-full bg-white dark:bg-[#1a191d] rounded-xl border dark:border-gray-700 mb-3 relative overflow-hidden">
 
         <div id='banner-title' className='flex flex-col absolute top-10 left-10'>
             <div className='text-4xl font-bold mb-3  dark:text-white'>{CONFIG.HERO_TITLE_1}<br />{CONFIG.HERO_TITLE_2}</div>
@@ -259,7 +259,7 @@ function TodayCard({ cRef }) {
   }
 
   return <div id='today-card' className={`${isCoverUp ? ' ' : 'pointer-events-none'} overflow-hidden absolute hidden xl:flex flex-1 flex-col h-full top-0 w-full`}>
-        <div id='card-body' onClick={handleCardClick} className={`${isCoverUp ? 'opacity-100 cursor-pointer' : 'opacity-0 transform scale-110 pointer-events-none'} shadow transition-all duration-200 today-card h-full bg-[#0E57D5] rounded-xl relative overflow-hidden flex items-end`}>
+        <div id='card-body' onClick={handleCardClick} className={`${isCoverUp ? 'opacity-100 cursor-pointer' : 'opacity-0 transform scale-110 pointer-events-none'} shadow transition-all duration-200 today-card h-full bg-[#000000] rounded-xl relative overflow-hidden flex items-end`}>
             <div id='today-card-info' className='z-10 flex justify-between w-full relative text-white p-10 items-end'>
                 <div className='flex flex-col'>
                     <div className='text-xs font-light'>{CONFIG.HERO_TITLE_4}</div>
