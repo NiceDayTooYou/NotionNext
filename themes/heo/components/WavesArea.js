@@ -5,7 +5,7 @@ import { useGlobal } from '@/lib/global'
  */
 export default function WavesArea() {
   const { isDarkMode } = useGlobal()
-  const color = isDarkMode ? '#1a191d' : '#EEECFC'
+  const color = isDarkMode ? '#000000' : '#EEECFC'
 
   return (
         <section className="main-hero-waves-area waves-area w-full absolute left-0 z-10 bottom-0">
