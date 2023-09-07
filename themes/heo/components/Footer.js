@@ -15,11 +15,11 @@ const Footer = ({ title }) => {
 
   return (
         <footer
-            className='relative z-10 flex-shrink-0 bg-white dark:bg-[#1a191d] justify-center text-center m-auto w-full leading-6  text-gray-600 dark:text-gray-100 text-sm'
+            className='relative z-10 flex-shrink-0 bg-white dark:bg-[#1a191d] justify-center text-center m-auto w-full leading-6  text-gray-900 dark:text-gray-50 text-sm'
         >
 
             {/* 颜色过度区 */}
-            <div id='color-transition' className='h-32 bg-gradient-to-b from-[#EEECFC] to-white  dark:bg-[#1a191d] dark:from-inherit dark:to-inherit'>
+            <div id='color-transition' className='h-32 bg-gradient-to-b from-[#EEECFC] to-white  dark:bg-[#000000] dark:from-inherit dark:to-inherit'>
 
             </div>
 
@@ -31,10 +31,10 @@ const Footer = ({ title }) => {
             <br />
 
             {/* 底部页面信息 */}
-            <div id='footer-bottom' className='w-full h-20 flex flex-col p-3 lg:flex-row justify-between px-6 items-center bg-[#f1f3f7] dark:bg-[#30343f]'>
+            <div id='footer-bottom' className='w-full h-20 flex flex-col p-3 lg:flex-row justify-between px-6 items-center bg-[#EEECFC] dark:bg-[#000000]'>
 
                 <div id='footer-bottom-left'>
-                   Li Yong❤️ {BLOG.VERSION} <i className='fas fa-copyright' /> {`${copyrightDate}`} <i className='mx-1 animate-pulse fas fa-heart' /> <a href={BLOG.LINK} className='underline font-bold  dark:text-gray-300 '>{BLOG.AUTHOR}</a>.
+                   Li Yong❤️ {BLOG.VERSION} <i className='fas fa-copyright' /> {`${copyrightDate}`} <i className='mx-1 animate-pulse fas fa-heart' /> <a href={BLOG.LINK} className='underline font-bold  dark:text-gray-50 '>{BLOG.AUTHOR}</a>.
                 </div>
 
             <div id='footer-bottom-right'>
