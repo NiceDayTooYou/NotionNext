@@ -24,7 +24,7 @@ export default function SearchNav(props) {
         <SearchInput cRef={cRef} {...props} />
         {/* 分类 */}
         <Card className="w-full mt-4 bg-white dark:bg-[#1a191d]">
-            <div className="dark:text-gray-200 mb-5 mx-3 text-3xl">
+            <div className="dark:text-gray-50 mb-5 mx-3 text-3xl">
                 {locale.COMMON.CATEGORY}:
             </div>
             <div id="category-list" className="duration-200 flex flex-wrap mx-8">
