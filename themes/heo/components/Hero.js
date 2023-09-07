@@ -117,7 +117,7 @@ function TagsGroupBar() {
 function GroupMenu() {
   return (
         <div className="h-[165px] select-none xl:h-20 flex flex-col justify-between xl:space-y-0 xl:flex-row w-28 lg:w-48 xl:w-full xl:flex-nowrap xl:space-x-3">
-            <Link href={CONFIG.HERO_CATEGORY_1?.url} className="group relative overflow-hidden bg-gradient-to-r from-gray-900 to-gray-900 flex h-20 justify-start items-center text-white rounded-xl xl:hover:w-1/2 xl:w-1/3 transition-all duration-500 ease-in">
+            <Link href={CONFIG.HERO_CATEGORY_1?.url} className="group relative overflow-hidden bg-gradient-to-r from-indigo-500 to-indigo-300 flex h-20 justify-start items-center text-white rounded-xl xl:hover:w-1/2 xl:w-1/3 transition-all duration-500 ease-in">
                 <div className="font-bold lg:text-lg  pl-5 relative -mt-2">
                     {CONFIG.HERO_CATEGORY_1?.title}
                     <span className="absolute -bottom-0.5 left-5 w-5 h-0.5 bg-white rounded-full"></span>
@@ -126,7 +126,7 @@ function GroupMenu() {
                     <i className="fa-solid fa-star text-4xl"></i>
                 </div>
             </Link>
-            <Link href={CONFIG.HERO_CATEGORY_2?.url} className="group relative overflow-hidden bg-gradient-to-r from-green-500 to-red-300 flex h-20 justify-start items-center text-white rounded-xl xl:hover:w-1/2 xl:w-1/3 transition-all duration-500 ease-in">
+            <Link href={CONFIG.HERO_CATEGORY_2?.url} className="group relative overflow-hidden bg-gradient-to-r from-red-600 to-gary-50 flex h-20 justify-start items-center text-white rounded-xl xl:hover:w-1/2 xl:w-1/3 transition-all duration-500 ease-in">
                 <div className="font-bold lg:text-lg pl-5 relative -mt-2">
                     {CONFIG.HERO_CATEGORY_2?.title}
                     <span className="absolute -bottom-0.5 left-5 w-5 h-0.5 bg-white rounded-full"></span>
@@ -136,7 +136,7 @@ function GroupMenu() {
                 </div>
             </Link>
             {/* 第三个标签在小屏上不显示 */}
-            <Link href={CONFIG.HERO_CATEGORY_3?.url} className="group relative overflow-hidden bg-gradient-to-r from-blue-600 to-violet-400 hidden h-20 xl:flex justify-start items-center text-white rounded-xl xl:hover:w-1/2 xl:w-1/3 transition-all duration-500 ease-in">
+            <Link href={CONFIG.HERO_CATEGORY_3?.url} className="group relative overflow-hidden bg-gradient-to-r from-rose-500 to-gary-50 hidden h-20 xl:flex justify-start items-center text-white rounded-xl xl:hover:w-1/2 xl:w-1/3 transition-all duration-500 ease-in">
                 <div className="font-bold text-lg pl-5 relative -mt-2">
                     {CONFIG.HERO_CATEGORY_3?.title}
                     <span className="absolute -bottom-0.5 left-5 w-5 h-0.5 bg-white rounded-full"></span>
