@@ -51,7 +51,7 @@ const BlogPostCard = ({ index, post, showSummary, siteInfo }) => {
 
                     {/* 摘要 */}
                     {(!showPreview || showSummary) && (
-                        <p className="line-clamp-2 replace my-3 2xl:my-1 text-gray-900  dark:text-gray-300 text-sm font-light leading-tight">
+                        <p className="line-clamp-2 replace my-3 2xl:my-1 text-gray-900  dark:text-gray-50 text-sm font-light leading-tight">
                             {post.summary}
                         </p>
                     )}
