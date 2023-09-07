@@ -49,7 +49,7 @@ export default function ArticleAdjacent({ prev, next }) {
   return (
         <div id='article-end'>
             {/* 移动端 */}
-            <section className='lg:hidden pt-8 text-gray-800 items-center text-xs md:text-sm flex flex-col m-1 '>
+            <section className='lg:hidden pt-8 text-gray-900 items-center text-xs md:text-sm flex flex-col m-1 '>
                 <Link
                     href={`/${prev.slug}`}
                     passHref
