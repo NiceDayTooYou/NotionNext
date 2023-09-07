@@ -259,13 +259,13 @@ function TodayCard({ cRef }) {
   }
 
   return <div id='today-card' className={`${isCoverUp ? ' ' : 'pointer-events-none'} overflow-hidden absolute hidden xl:flex flex-1 flex-col h-full top-0 w-full`}>
-        <div id='card-body' onClick={handleCardClick} className={`${isCoverUp ? 'opacity-100 cursor-pointer' : 'opacity-0 transform scale-110 pointer-events-none'} shadow transition-all duration-200 today-card h-full bg-[#000000] rounded-xl relative overflow-hidden flex items-end`}>
+        <div id='card-body' onClick={handleCardClick} className={`${isCoverUp ? 'opacity-100 cursor-pointer' : 'opacity-0 transform scale-110 pointer-events-none'} shadow transition-all duration-200 today-card h-full bg-[] rounded-xl relative overflow-hidden flex items-end`}>
             <div id='today-card-info' className='z-10 flex justify-between w-full relative text-white p-10 items-end'>
                 <div className='flex flex-col'>
                     <div className='text-xs font-light'>{CONFIG.HERO_TITLE_4}</div>
                     <div className='text-3xl font-bold'>{CONFIG.HERO_TITLE_5}</div>
                 </div>
-                <div onClick={handleClickMore} className={`'${isCoverUp ? '' : 'hidden pointer-events-none '} flex items-center px-3 h-10 justify-center bg-[#425aef] hover:bg-[#4259efcb] transition-colors duration-100 rounded-3xl`}>
+                <div onClick={handleClickMore} className={`'${isCoverUp ? '' : 'hidden pointer-events-none '} flex items-center px-3 h-10 justify-center bg-[#000000] hover:bg-[#000000cb] transition-colors duration-100 rounded-3xl`}>
                     <PlusSmall className={'w-6 h-6 mr-2 bg-white rounded-full stroke-indigo-400'} />
                     <div id='more' className='select-none'>Find more</div>
                 </div>
