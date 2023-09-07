@@ -17,7 +17,7 @@ const MenuGroupCard = (props) => {
   ]
 
   return (
-        <nav id='nav' className='dark:text-gray-200 w-full px-5'>
+        <nav id='nav' className='dark:text-gray-50 w-full px-5'>
             {links.map((link, index) => {
               if (link.show) {
                 return (
@@ -25,7 +25,7 @@ const MenuGroupCard = (props) => {
                             <Link title={link.to}
                                 href={link.to}
                                 target={link?.to?.indexOf('http') === 0 ? '_blank' : '_self'}
-                                className={'w-full flex items-center justify-between py-1 hover:scale-105 duration-200 transform dark:hover:text-indigo-400 hover:text-indigo-600 px-2 cursor-pointer'}>
+                                className={'w-full flex items-center justify-between py-1 hover:scale-105 duration-200 transform dark:hover:text-green-400 hover:text-green-600 px-2 cursor-pointer'}>
                                 <>
                                     <div>{link.name} :</div>
                                     <div className='font-semibold'>{link.slot}</div>
