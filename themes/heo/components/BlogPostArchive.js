@@ -18,7 +18,7 @@ const BlogPostArchive = ({ posts = [], archiveTitle, siteInfo }) => {
     return (
             <div className=''>
                 <div
-                    className="pb-4 dark:text-gray-300"
+                    className="pb-4 dark:text-gray-50"
                     id={archiveTitle}
                 >
                     {archiveTitle}
