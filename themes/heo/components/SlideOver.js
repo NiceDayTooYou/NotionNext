@@ -74,7 +74,7 @@ export default function SlideOver(props) {
                                         </div>
                                     </Transition.Child>
                                     {/* 内容 */}
-                                    <div className="flex h-full flex-col overflow-y-scroll bg-white dark:bg-[#1a191d] py-6 shadow-xl">
+                                    <div className="flex h-full flex-col overflow-y-scroll bg-white dark:bg-[#000000] py-6 shadow-xl">
                                         <div className="relative mt-6 flex-1 flex-col space-y-3 px-4 sm:px-6 dark:text-white ">
 
                                             <section className='space-y-2 flex flex-col'>
