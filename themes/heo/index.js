@@ -189,7 +189,7 @@ const LayoutArchive = (props) => {
   // 归档页顶部显示条，如果是默认归档则不显示。分类详情页显示分类列表，标签详情页显示当前标签
 
   return <LayoutBase {...props} slotRight={slotRight} headerSlot={headerSlot}>
-        <div className='p-5 rounded-xl border dark:border-gray-600 max-w-6xl w-full bg-white dark:bg-[#1e1e1e]'>
+        <div className='p-5 rounded-xl border dark:border-gray-900 max-w-6xl w-full bg-white dark:bg-[#1e1e1e]'>
             {/* 文章分类条 */}
             <CategoryBar {...props} border={false} />
 
@@ -333,7 +333,7 @@ const Layout404 = props => {
                                 <h1 className='error-title font-extrabold md:text-9xl text-7xl'>404</h1>
                                 <div>请尝试站内搜索寻找文章</div>
                                 <Link href='/'>
-                                    <button className='bg-blue-500 p-2 text-white shadow rounded-lg hover:bg-blue-600 hover:shadow-md duration-200 transition-all'>回到主页</button>
+                                    <button className='bg-gray-900 p-2 text-white shadow rounded-lg hover:bg-gary-900 hover:shadow-md duration-200 transition-all'>回到主页</button>
                                 </Link>
                             </div>
                         </div>
@@ -367,17 +367,17 @@ const LayoutCategoryIndex = props => {
   return (
         <LayoutBase {...props} className='mt-8' headerSlot={headerSlot}>
             <div id='category-outer-wrapper' className='px-5 md:px-0'>
-                <div className="text-4xl font-extrabold dark:text-gray-200 mb-5">
+                <div className="text-4xl font-extrabold dark:text-gray-50 mb-5">
                     {locale.COMMON.CATEGORY}
                 </div>
                 <div id="category-list" className="duration-200 flex flex-wrap m-10 justify-center">
                     {categoryOptions.map(category => {
                       return (
                             <Link key={category.name} href={`/category/${category.name}`} passHref legacyBehavior>
-                                <div className={'group mr-5 mb-5 flex flex-nowrap items-center border bg-white text-2xl rounded-xl dark:hover:text-white px-4 cursor-pointer py-3 hover:text-white hover:bg-indigo-600 transition-all hover:scale-110 duration-150'}>
-                                    <HashTag className={'w-5 h-5 stroke-gray-500 stroke-2'} />
+                                <div className={'group mr-5 mb-5 flex flex-nowrap items-center border bg-white text-2xl rounded-xl dark:hover:text-white px-4 cursor-pointer py-3 hover:text-white hover:bg-gray-900 transition-all hover:scale-110 duration-150'}>
+                                    <HashTag className={'w-5 h-5 stroke-gray-900 stroke-2'} />
                                     {category.name}
-                                    <div className='bg-[#f1f3f8] ml-1 px-2 rounded-lg group-hover:text-indigo-600 '>
+                                    <div className='bg-[#f1f3f8] ml-1 px-2 rounded-lg group-hover:text-green-400 '>
                                         {category.count}
                                     </div>
                                 </div>
@@ -405,17 +405,17 @@ const LayoutTagIndex = props => {
   return (
         <LayoutBase {...props} className='mt-8' headerSlot={headerSlot}>
             <div id='tag-outer-wrapper' className='px-5  md:px-0'>
-                <div className="text-4xl font-extrabold dark:text-gray-200 mb-5">
+                <div className="text-4xl font-extrabold dark:text-gray-50 mb-5">
                     {locale.COMMON.TAGS}
                 </div>
                 <div id="tag-list" className="duration-200 flex flex-wrap space-x-5 space-y-5 m-10 justify-center">
                     {tagOptions.map(tag => {
                       return (
                             <Link key={tag.name} href={`/tag/${tag.name}`} passHref legacyBehavior>
-                                <div className={'group flex flex-nowrap items-center border bg-white text-2xl rounded-xl dark:hover:text-white px-4 cursor-pointer py-3 hover:text-white hover:bg-indigo-600 transition-all hover:scale-110 duration-150'}>
-                                    <HashTag className={'w-5 h-5 stroke-gray-500 stroke-2'} />
+                                <div className={'group flex flex-nowrap items-center border bg-white text-2xl rounded-xl dark:hover:text-white px-4 cursor-pointer py-3 hover:text-white hover:bg-gray-900 transition-all hover:scale-110 duration-150'}>
+                                    <HashTag className={'w-5 h-5 stroke-gray-900 stroke-2'} />
                                     {tag.name}
-                                    <div className='bg-[#f1f3f8] ml-1 px-2 rounded-lg group-hover:text-indigo-600 '>
+                                    <div className='bg-[#f1f3f8] ml-1 px-2 rounded-lg group-hover:text-green-400 '>
                                         {tag.count}
                                     </div>
                                 </div>
