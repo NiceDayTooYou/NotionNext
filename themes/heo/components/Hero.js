@@ -266,7 +266,7 @@ function TodayCard({ cRef }) {
                     <div className='text-3xl font-bold'>{CONFIG.HERO_TITLE_5}</div>
                 </div>
                 <div onClick={handleClickMore} className={`'${isCoverUp ? '' : 'hidden pointer-events-none '} flex items-center px-3 h-10 justify-center bg-[#000000] hover:bg-[#000000cb] transition-colors duration-100 rounded-3xl`}>
-                    <PlusSmall className={'w-6 h-6 mr-2 bg-white rounded-full stroke-indigo-400'} />
+                    <PlusSmall className={'w-6 h-6 mr-2 bg-white rounded-full stroke-gary-50'} />
                     <div id='more' className='select-none'>Find more</div>
                 </div>
             </div>
