@@ -40,7 +40,7 @@ export function InfoCard(props) {
             </div>
 
             <div className='flex justify-between'>
-                <div className='flex space-x-3  hover:text-black dark:hover:text-black'>
+                <div className='flex space-x-3  hover:text-black dark:hover:text-white'>
                     {/* 两个社交按钮 */}
                     <div className='bg-[#000000] p-2 rounded-full  transition-colors duration-200 dark:bg-[#000000] dark:hover:bg-white hover:bg-white'>
                         <Link href='/about'><GlobeAlt className={'w-6 h-6'} /></Link>
