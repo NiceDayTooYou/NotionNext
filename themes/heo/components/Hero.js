@@ -64,7 +64,7 @@ function Banner(props) {
     router.push(`${BLOG.SUB_PATH}/${randomPost?.slug}`)
   }
 
-  return <div id='banners' onClick={handleClickBanner} className="hidden xl:flex xl:flex-col group h-full bg-white dark:bg-[#1a191d] rounded-xl border dark:border-gray-700 mb-3 relative overflow-hidden">
+  return <div id='banners' onClick={handleClickBanner} className="hidden xl:flex xl:flex-col group h-full bg-white dark:bg-[#1a191d] rounded-xl border dark:border-gray-50 mb-3 relative overflow-hidden">
 
         <div id='banner-title' className='flex flex-col absolute top-10 left-10'>
             <div className='text-4xl font-bold mb-3  dark:text-white'>{CONFIG.HERO_TITLE_1}<br />{CONFIG.HERO_TITLE_2}</div>
