@@ -6,7 +6,7 @@ const CategoryGroup = ({ currentCategory, categories }) => {
     return <></>
   }
   return <>
-    <div id='category-list' className='dark:border-gray-900 flex flex-wrap  mx-4'>
+    <div id='category-list' className='dark:border-gray-50 flex flex-wrap  mx-4'>
       {categories.map(category => {
         const selected = currentCategory === category.name
         return (
