@@ -29,7 +29,7 @@ export default function CategoryBar(props) {
     }
   }
   return <div id='category-bar' className={`flex flex-nowrap justify-between items-center h-12 mb-4 space-x-2 w-full lg:bg-white dark:lg:bg-[#1e1e1e]  
-  ${border ? 'lg:border lg:hover:border dark:lg:border-gray-900 hover:border-gray-900 dark:hover:border-green-400 ' : ''}  py-2 lg:px-2 rounded-xl transition-colors duration-200`}>
+  ${border ? 'lg:border lg:hover:border dark:lg:border-gray-50 hover:border-gray-900 dark:hover:border-green-400 ' : ''}  py-2 lg:px-2 rounded-xl transition-colors duration-200`}>
 
         <div id='category-bar-items' ref={categoryBarItemsRef} className='scroll-smooth max-w-4xl rounded-lg scroll-hidden flex justify-start flex-nowrap items-center overflow-x-scroll'>
             <MenuItem href='/' name={locale.NAV.INDEX} />
