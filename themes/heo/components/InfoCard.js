@@ -25,7 +25,7 @@ export function InfoCard(props) {
             <div className='flex justify-between'>
                 {/* 问候语 */}
                 <GreetingsWords />
-                <div className={`${isSlugPage ? 'absolute right-0 -mt-8 -mr-5 hover:opacity-0 hover:scale-150 blur' : 'cursor-pointer'} justify-center items-center flex dark:text-gray-50 transform transitaion-all duration-200`}>
+                <div className={`${isSlugPage ? 'absolute right-0 -mt-8 -mr-5 hover:opacity-0 hover:scale-150 blur' : 'cursor-pointer'} justify-center items-center flex dark:text-[#ffffff] transform transitaion-all duration-200`}>
                     <LazyImage src={siteInfo?.icon} className='rounded-full' width={isSlugPage ? 100 : 28} alt={BLOG.AUTHOR} />
                 </div>
             </div>
@@ -40,7 +40,7 @@ export function InfoCard(props) {
             </div>
 
             <div className='flex justify-between'>
-                <div className='flex space-x-3  hover:text-black dark:hover:text-white'>
+                <div className='flex space-x-3  hover:text-black dark:hover:text-black'>
                     {/* 两个社交按钮 */}
                     <div className='bg-[#000000] p-2 rounded-full  transition-colors duration-200 dark:bg-[#000000] dark:hover:bg-white hover:bg-white'>
                         <Link href='/about'><GlobeAlt className={'w-6 h-6'} /></Link>
@@ -68,7 +68,7 @@ function GreetingsWords() {
     setGreeting(greetings[randomIndex])
   }
 
-  return <div onClick={handleChangeGreeting} className=' select-none cursor-pointer py-1 px-2 bg-[#000000] hover:bg-[#ffffff]  hover:text-[#000000] dark:bg-[#000000] dark:hover:text-white dark:hover:bg-green-400 text-sm rounded-lg  duration-200 transition-colors'>
+  return <div onClick={handleChangeGreeting} className=' select-none cursor-pointer py-1 px-2 bg-[#000000] hover:bg-[#ffffff]  hover:text-[#000000] dark:bg-[#000000] dark:hover:text-[#000000] dark:hover:bg-[#ffffff] text-sm rounded-lg  duration-200 transition-colors'>
         {greeting}
     </div>
 }
