@@ -119,7 +119,7 @@ function DarkModeBlockButton() {
   function handleChangeDarkMode() {
     darkModeRef?.current?.handleChangeDarkMode()
   }
-  return <button onClick={handleChangeDarkMode} className={'group duration-200 hover:text-white hover:shadow-md hover:bg-gary-900 flex justify-between items-center px-2 py-2 border dark:border-gray-900 bg-white dark:bg-[#1a191d]  rounded-lg'}>
+  return <button onClick={handleChangeDarkMode} className={'group duration-200 hover:text-white hover:shadow-md hover:bg-gary-900 flex justify-between items-center px-2 py-2 border dark:border-gray-50 bg-white dark:bg-[#1a191d]  rounded-lg'}>
         <DarkModeButton cRef={darkModeRef} className='group-hover:text-white' /> 显示模式
     </button>
 }
@@ -128,7 +128,7 @@ function DarkModeBlockButton() {
  * 一个简单的按钮
  */
 function Button({ title, url }) {
-  return <Link href={url} className={'duration-200 hover:text-white hover:shadow-md flex cursor-pointer justify-between items-center px-2 py-2 border dark:border-gray-900 bg-white hover:bg-gary-900 dark:bg-[#1a191d] rounded-lg'}>
+  return <Link href={url} className={'duration-200 hover:text-white hover:shadow-md flex cursor-pointer justify-between items-center px-2 py-2 border dark:border-gray-50 bg-white hover:bg-gary-900 dark:bg-[#1a191d] rounded-lg'}>
         {title}
     </Link>
 }
