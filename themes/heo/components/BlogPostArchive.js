@@ -30,7 +30,7 @@ const BlogPostArchive = ({ posts = [], archiveTitle, siteInfo }) => {
                         post.pageCoverThumbnail = siteInfo?.pageCover
                       }
                       const showPageCover = CONFIG.POST_LIST_COVER && post?.pageCoverThumbnail && !showPreview
-                      return <div key={post.id} className={'cursor-pointer flex flex-row mb-4 h-24 md:flex-row group w-full  dark:border-gray-900 hover:border-gary-900  dark:hover:border-gray-900 duration-300 transition-colors justify-between overflow-hidden'}>
+                      return <div key={post.id} className={'cursor-pointer flex flex-row mb-4 h-24 md:flex-row group w-full  dark:border-gray-50 hover:border-gary-900  dark:hover:border-gray-900 duration-300 transition-colors justify-between overflow-hidden'}>
 
                             {/* 图片封面 */}
                             {showPageCover && (
