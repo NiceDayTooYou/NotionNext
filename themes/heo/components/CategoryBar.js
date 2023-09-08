@@ -55,7 +55,7 @@ export default function CategoryBar(props) {
 const MenuItem = ({ href, name }) => {
   const router = useRouter()
   const selected = router.pathname === href
-  return <div className={`whitespace-nowrap mr-2 duration-200 transition-all font-bold px-2 py-0.5 rounded-md text-gray-900 dark:text-white hover:text-black hover:bg-red-600 dark:hover:bg-green-500 ${selected ? 'text-white bg-[#000000] dark:bg-[#ffffff]' : ''}`}>
+  return <div className={`whitespace-nowrap mr-2 duration-200 transition-all font-bold px-2 py-0.5 rounded-md text-gray-900 dark:text-black hover:text-black hover:bg-red-600 dark:hover:bg-green-500 ${selected ? 'text-white bg-[#000000] dark:bg-[#ffffff]' : ''}`}>
         <Link href={href}>{name}</Link>
     </div>
 }
