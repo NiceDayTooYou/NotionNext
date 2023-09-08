@@ -189,7 +189,7 @@ const LayoutArchive = (props) => {
   // 归档页顶部显示条，如果是默认归档则不显示。分类详情页显示分类列表，标签详情页显示当前标签
 
   return <LayoutBase {...props} slotRight={slotRight} headerSlot={headerSlot}>
-        <div className='p-5 rounded-xl border dark:border-gray-900 max-w-6xl w-full bg-white dark:bg-[#1a191d]'>
+        <div className='p-5 rounded-xl border dark:border-gray-50 max-w-6xl w-full bg-white dark:bg-[#1a191d]'>
             {/* 文章分类条 */}
             <CategoryBar {...props} border={false} />
 
