@@ -136,7 +136,7 @@ function getPageElement(page, currentPage, pagePrefix) {
                 (selected
                   ? 'bg-gray-900 dark:bg-green-400 text-white '
                   : 'dark:bg-[#1e1e1e] bg-white') +
-                ' hover:border-gray-900 dark:hover:bg-green-400 dark:border-gray-600 px-4 border py-2 rounded-lg drop-shadow-sm duration-200 transition-colors'
+                ' hover:border-gray-900 dark:hover:bg-green-400 dark:border-gray-50 px-4 border py-2 rounded-lg drop-shadow-sm duration-200 transition-colors'
             }>
 
             {page}
