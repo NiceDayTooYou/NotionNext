@@ -79,7 +79,7 @@ function GreetingsWords() {
  */
 function MoreButton() {
   return <Link href='https://flowcv.com/resume/ww2mhitt2c'>
-        <div className={'group bg-[#000000] dark:bg-[#000000] hover:bg-white dark:hover:bg-black hover:text-black dark:hover:text-white flex items-center transition-colors duration-200 py-2 px-3 rounded-full space-x-1'}>
+        <div className={'group bg-[#000000] dark:bg-[#000000] hover:bg-white dark:hover:bg-white hover:text-black dark:hover:text-white flex items-center transition-colors duration-200 py-2 px-3 rounded-full space-x-1'}>
             <ArrowRightCircle className={'group-hover:stroke-black dark:group-hover:stroke-white w-6 h-6 transition-all duration-100'} />
             <div className='font-bold'>Discover</div>
         </div>
