@@ -68,7 +68,7 @@ function GreetingsWords() {
     setGreeting(greetings[randomIndex])
   }
 
-  return <div onClick={handleChangeGreeting} className=' select-none cursor-pointer py-1 px-2 bg-gray-900 hover:bg-gray-900  hover:text-gray-900 dark:bg-gray-900 dark:hover:text-white dark:hover:bg-black text-sm rounded-lg  duration-200 transition-colors'>
+  return <div onClick={handleChangeGreeting} className=' select-none cursor-pointer py-1 px-2 bg-[#000000] hover:bg-[#ffffff]  hover:text-[#000000] dark:bg-[#000000] dark:hover:text-white dark:hover:bg-green-400 text-sm rounded-lg  duration-200 transition-colors'>
         {greeting}
     </div>
 }
