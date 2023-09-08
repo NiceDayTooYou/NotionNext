@@ -230,7 +230,7 @@ const LayoutSlug = props => {
 
   return (
         <LayoutBase {...props} headerSlot={headerSlot} showCategory={false} showTag={false} slotRight={slotRight}>
-            <div className="w-full max-w-5xl lg:hover:shadow lg:border rounded-2xl lg:px-2 lg:py-4 bg-white dark:bg-[#1a191d] dark:border-gray-600 article">
+            <div className="w-full max-w-5xl lg:hover:shadow lg:border rounded-2xl lg:px-2 lg:py-4 bg-white dark:bg-[#1a191d] dark:border-gray-50 article">
 
                 {lock && <ArticleLock validPassword={validPassword} />}
 
