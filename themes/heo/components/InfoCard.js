@@ -40,12 +40,12 @@ export function InfoCard(props) {
             </div>
 
             <div className='flex justify-between'>
-                <div className='flex space-x-3  hover:text-black dark:hover:text-white'>
+                <div className='flex space-x-3  hover:text-black dark:hover:text-black'>
                     {/* 两个社交按钮 */}
-                    <div className='bg-[#000000] p-2 rounded-full  transition-colors duration-200 dark:bg-[#000000] dark:hover:bg-green hover:bg-white'>
+                    <div className='bg-[#000000] p-2 rounded-full  transition-colors duration-200 dark:bg-[#000000] dark:hover:bg-white hover:bg-white'>
                         <Link href='/about'><GlobeAlt className={'w-6 h-6'} /></Link>
                     </div>
-                    <div className='bg-[#000000] p-2 rounded-full w-10 items-center flex justify-center transition-colors duration-200 dark:bg-[#000000] dark:hover:bg-green hover:bg-white'>
+                    <div className='bg-[#000000] p-2 rounded-full w-10 items-center flex justify-center transition-colors duration-200 dark:bg-[#000000] dark:hover:bg-white hover:bg-white'>
                         <Link href={CONFIG.INFO_CARD_URL}><i className='fab fa-github text-xl' />
                         </Link>
                     </div>
@@ -79,7 +79,7 @@ function GreetingsWords() {
  */
 function MoreButton() {
   return <Link href='https://flowcv.com/resume/ww2mhitt2c'>
-        <div className={'group bg-[#000000] dark:bg-[#000000] hover:bg-white dark:hover:bg-white hover:text-black dark:hover:text-white flex items-center transition-colors duration-200 py-2 px-3 rounded-full space-x-1'}>
+        <div className={'group bg-[#000000] dark:bg-[#000000] hover:bg-white dark:hover:bg-white hover:text-black dark:hover:text-black flex items-center transition-colors duration-200 py-2 px-3 rounded-full space-x-1'}>
             <ArrowRightCircle className={'group-hover:stroke-black dark:group-hover:stroke-white w-6 h-6 transition-all duration-100'} />
             <div className='font-bold'>Discover</div>
         </div>
