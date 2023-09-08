@@ -20,7 +20,7 @@ export function InfoCard(props) {
   const isSlugPage = router.pathname === '/[...slug]'
 
   return (
-        <Card className='bg-[#ffffff] dark:bg-green-400 text-white flex flex-col w-72 overflow-hidden relative'>
+        <Card className='bg-[#ffffff] dark:bg-true-gray-900 text-white flex flex-col w-72 overflow-hidden relative'>
             {/* 信息卡牌第一行 */}
             <div className='flex justify-between'>
                 {/* 问候语 */}
