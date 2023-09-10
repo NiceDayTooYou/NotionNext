@@ -333,7 +333,7 @@ const Layout404 = props => {
                                 <h1 className='error-title font-extrabold md:text-9xl text-7xl'>404</h1>
                                 <div>请尝试站内搜索寻找文章</div>
                                 <Link href='/'>
-                                    <button className='bg-gray-900 p-2 text-white shadow rounded-lg hover:bg-gary-900 hover:shadow-md duration-200 transition-all'>回到主页</button>
+                                    <button className='bg-gray-900 p-2 text-white shadow rounded-lg hover:bg-green-400 hover:shadow-md duration-200 transition-all'>回到主页</button>
                                 </Link>
                             </div>
                         </div>
