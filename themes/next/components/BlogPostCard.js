@@ -29,7 +29,7 @@ const BlogPostCard = ({ post, showSummary }) => {
             data-aos-once="true"
             data-aos-anchor-placement="top-bottom"
             className={`cursor-pointer hover:underline text-3xl ${showPreview ? 'text-center' : ''
-              } leading-tight text-gray-700 dark:text-gray-100 hover:text-blue-500 dark:hover:text-blue-400`}>
+              } leading-tight text-gray-900 dark:text-gray-50 hover:text-green-500 dark:hover:text-green-400`}>
 
             <NotionIcon icon={post.pageIcon} /> {post.title}
 
