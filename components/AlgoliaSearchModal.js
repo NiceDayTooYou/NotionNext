@@ -65,7 +65,7 @@ export default function AlgoliaSearchModal({ cRef }) {
           search: query,
           target: {
             element: 'span',
-            className: 'text-blue-600 border-b border-dashed'
+            className: 'text-green-600 border-b border-dashed'
           }
         })
       }, 150)
@@ -108,8 +108,8 @@ export default function AlgoliaSearchModal({ cRef }) {
             <div className={`${isModalOpen ? 'opacity-100' : 'invisible opacity-0 translate-y-10'} flex flex-col justify-between w-full min-h-[10rem] max-w-xl dark:bg-hexo-black-gray dark:border-gray-800 bg-white dark:bg- p-5 rounded-lg z-50 shadow border hover:border-blue-600 duration-300 transition-all `}>
 
                 <div className='flex justify-between items-center'>
-                    <div className='text-2xl text-blue-600 font-bold'>搜索</div>
-                    <div><i className="text-gray-600 fa-solid fa-xmark p-1 cursor-pointer hover:text-blue-600" onClick={closeModal} ></i></div>
+                    <div className='text-2xl text-green-600 font-bold'>搜索</div>
+                    <div><i className="text-gray-900 fa-solid fa-xmark p-1 cursor-pointer hover:text-green-600" onClick={closeModal} ></i></div>
                 </div>
 
                 <input type="text" placeholder="在这里输入搜索关键词..." onChange={(e) => handleInputChange(e)}
