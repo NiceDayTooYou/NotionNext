@@ -17,7 +17,7 @@ const Style = () => {
     }
 
     ::-webkit-scrollbar-thumb {
-        background: rgba(239, 68, 68, 1);
+        background: rgba(0, 255, 0, 1);
         border-radius: 8px;
         cursor: pointer;
     }
