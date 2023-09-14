@@ -24,15 +24,15 @@ function createFireworks(config) {
     numberOfParticules: 20,
     orbitRadius: {
       min: 50,
-      max: 150
+      max: 100
     },
     circleRadius: {
-      min: 20,
-      max: 30
+      min: 10,
+      max: 20
     },
     diffuseRadius: {
       min: 50,
-      max: 150
+      max: 100
     },
     animeDuration: {
       min: 900,
