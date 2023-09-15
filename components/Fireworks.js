@@ -24,7 +24,7 @@ function createFireworks(config) {
     numberOfParticules: 20,
     orbitRadius: {
       min: 50,
-      max: 150
+      max: 100
     },
     circleRadius: {
       min: 30,
