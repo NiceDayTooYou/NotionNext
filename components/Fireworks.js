@@ -27,12 +27,12 @@ function createFireworks(config) {
       max: 100
     },
     circleRadius: {
-      min: 50,
-      max: 100
+      min: 30,
+      max: 50
     },
     diffuseRadius: {
-      min: 30,
-      max: 60
+      min: 50,
+      max: 100
     },
     animeDuration: {
       min: 900,
