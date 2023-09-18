@@ -5,12 +5,12 @@ const CONFIG = {
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   NOTICE_BAR: [
-    { title: 'Welcome欢迎你的到来🎯', url: 'https://winter.liyong.online/' },
-    { title: '希望你的每一天都开心快乐❤️', url: 'https://winter.liyong.online/' },
-    { title: '昨天是段历史❤️', url: 'https://winter.liyong.online/' },
-    { title: '明天是个谜团❤️', url: 'https://winter.liyong.online/' },
-    { title: '而今天是天赐的礼物❤️', url: 'https://winter.liyong.online/' },
-    { title: '要像珍惜礼物那样珍惜今天❤️', url: 'https://winter.liyong.online/' }
+    { title: 'Welcome欢迎你的到来🎯', url: 'https://like.liyong.online' },
+    { title: '希望你的每一天都开心快乐❤️', url: 'https://like.liyong.online' },
+    { title: '昨天是段历史❤️', url: 'https://like.liyong.online' },
+    { title: '明天是个谜团❤️', url: 'https://like.liyong.online' },
+    { title: '而今天是天赐的礼物❤️', url: 'https://like.liyong.online' },
+    { title: '要像珍惜礼物那样珍惜今天❤️', url: 'https://like.liyong.online' }
   ],
 
   // 英雄区(首页顶部大卡)
