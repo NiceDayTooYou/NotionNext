@@ -24,7 +24,7 @@ const CONFIG = {
   // 英雄区显示三个置顶分类
   HERO_CATEGORY_1: { title: 'Serendipity', url: 'https://www.liyong.online' },
   HERO_CATEGORY_2: { title: 'Online音乐', url: 'https://music.liyong.online' },
-  HERO_CATEGORY_3: { title: 'Smile', url: 'https://love.liyong.online' },
+  HERO_CATEGORY_3: { title: 'Smile', url: 'https://cloudmusic.liyong.online' },
 
   // 英雄区右侧推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
   HERO_RECOMMEND_POST_TAG: '',
