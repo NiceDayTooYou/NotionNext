@@ -22,7 +22,7 @@ const CONFIG = {
   HERO_TITLE_LINK: 'https://space.bilibili.com/1375298909/',
 
   // 英雄区显示三个置顶分类
-  HERO_CATEGORY_1: { title: 'Serendipity', url: 'https://link.liyong.online' },
+  HERO_CATEGORY_1: { title: 'Serendipity', url: 'https://www.liyong.online' },
   HERO_CATEGORY_2: { title: 'Online音乐', url: 'https://music.liyong.online' },
   HERO_CATEGORY_3: { title: 'Smile', url: 'https://love.liyong.online' },
 
