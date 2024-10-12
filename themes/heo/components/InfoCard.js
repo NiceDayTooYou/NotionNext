@@ -78,7 +78,7 @@ function GreetingsWords() {
  * @returns
  */
 function MoreButton() {
-  return <Link href='https://home.liyong.online'>
+  return <Link href='https://home.199681.xyz'>
         <div className={'group bg-[#000000] dark:bg-[#000000] hover:bg-white dark:hover:bg-white hover:text-black dark:hover:text-black flex items-center transition-colors duration-200 py-2 px-3 rounded-full space-x-1'}>
             <ArrowRightCircle className={'group-hover:stroke-black dark:group-hover:stroke-black w-6 h-6 transition-all duration-100'} />
             <div className='font-bold'>Discover</div>
