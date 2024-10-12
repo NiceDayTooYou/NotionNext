@@ -5,12 +5,12 @@ const CONFIG = {
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   NOTICE_BAR: [
-    { title: 'Welcome欢迎你的到来🎯', url: 'https://like.liyong.online' },
-    { title: '希望你的每一天都开心快乐❤️', url: 'https://like.liyong.online' },
-    { title: '昨天是段历史❤️', url: 'https://like.liyong.online' },
-    { title: '明天是个谜团❤️', url: 'https://like.liyong.online' },
-    { title: '而今天是天赐的礼物❤️', url: 'https://like.liyong.online' },
-    { title: '要像珍惜礼物那样珍惜今天❤️', url: 'https://like.liyong.online' }
+    { title: 'Welcome欢迎你的到来🎯', url: 'https://like.199681.xyz' },
+    { title: '希望你的每一天都开心快乐❤️', url: 'https://like.199681.xyz' },
+    { title: '昨天是段历史❤️', url: 'https://like.199681.xyz' },
+    { title: '明天是个谜团❤️', url: 'https://like.199681.xyz' },
+    { title: '而今天是天赐的礼物❤️', url: 'https://like.199681.xyz' },
+    { title: '要像珍惜礼物那样珍惜今天❤️', url: 'https://like.199681.xyz' }
   ],
 
   // 英雄区(首页顶部大卡)
@@ -22,9 +22,9 @@ const CONFIG = {
   HERO_TITLE_LINK: 'https://space.bilibili.com/1375298909/',
 
   // 英雄区显示三个置顶分类
-  HERO_CATEGORY_1: { title: 'Serendipity', url: 'https://www.liyong.online' },
-  HERO_CATEGORY_2: { title: 'Online音乐', url: 'https://music.liyong.online' },
-  HERO_CATEGORY_3: { title: 'Smile', url: 'https://cloudmusic.liyong.online' },
+  HERO_CATEGORY_1: { title: 'Serendipity', url: 'https://www.199681.xyz' },
+  HERO_CATEGORY_2: { title: 'Online音乐', url: 'https://music.199681.xyz' },
+  HERO_CATEGORY_3: { title: 'Smile', url: 'https://cloudmusic.199681.xyz' },
 
   // 英雄区右侧推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
   HERO_RECOMMEND_POST_TAG: '',
@@ -104,7 +104,7 @@ const CONFIG = {
   SOCIAL_CARD_TITLE_1: 'About me',
   SOCIAL_CARD_TITLE_2: 'Thanks for reading',
   SOCIAL_CARD_TITLE_3: '🔴🟡🟢点击发现更多 Thanks for reading',
-  SOCIAL_CARD_URL: 'https://winter.liyong.online/',
+  SOCIAL_CARD_URL: 'https://online.199681.xyz',
 
   // *****  以下配置无效，只是预留开发 ****
   // 菜单配置
